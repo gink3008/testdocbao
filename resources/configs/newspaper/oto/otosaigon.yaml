@@ -1,0 +1,66 @@
+- Otosaigon:
+    id_type: href
+    browser_profile: ''
+    web_url: https://www.otosaigon.com
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 15
+    language: vietnamese
+    feature_image_xpath: []
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //article[1]/div[1]/div[2]/div/div[1]/div/article/div[1]/b
+    - //article[1]/div[1]/div[2]/div/div[1]/div/article/div[1]/div[2]/b
+    get_publish_date_as_crawl_date: true
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: false
+    last_run: 21/11/2020 08:19
+    contain: ''
+    crawl_url: https://www.otosaigon.com
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //article[1]/div[1]/div[2]/div/header/div/a/time/@datetime
+    - //article[1]/div[1]/div[2]/div/header/div/a/time/@datetime
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //article[1]/div[1]/div[2]/div/div[1]/div/article/div[1]
+    - //article[1]/div[1]/div[2]/div/div[1]/div/article/div[1]
+    text_xpath:
+    - //article[1]/div[1]/div[2]/div/div[1]/div/article/div[1]/div[not(contains(@class,
+      "lbContainer"))][not(position()=1)]
+    - //article[1]/div[1]/div[2]/div/div[1]/div/article/div[1]/div[not(contains(@class,
+      "lbContainer"))][not(position()=1)]
+    image_box_xpath:
+    - .//img/@src
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://www.otosaigon.com
+    minimum_topic_length: 4
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
