@@ -15,15 +15,6 @@ import os
 if not is_another_session_running():
     new_session()
     try:
-        print(f'''
-        ############
-        ############
-        ############
-        {os.environ['DOCBAO_EXPORT_TO_ELASTICSEARCH']=="true"}
-        ############
-        ############
-        ############ ''')
-
         crawler = Docbao_Crawler(
                 crawl_newspaper=True,
                 crawl_kols=False,
