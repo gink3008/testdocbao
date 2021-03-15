@@ -2341,7 +2341,7 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-    - Autopro:
+- Autopro:
     id_type: href
     browser_profile: ''
     web_url: https://autopro.com.vn
