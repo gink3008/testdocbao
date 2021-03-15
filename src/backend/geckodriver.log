@@ -10313,3 +10313,1416 @@ Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
 Exiting due to channel error.
+1615812446596	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vjwT1w2sjZRG"
+*** You are running in headless mode.
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+
+(/usr/lib/firefox/firefox:5394): GLib-GObject-CRITICAL **: 12:47:28.588: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+
+(/usr/lib/firefox/firefox:5413): GLib-GObject-CRITICAL **: 12:47:28.839: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: moz-extension://0fe3269a-4c92-45af-b454-77b25ddae98d/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 6ms)
+
+(/usr/lib/firefox/firefox:5478): GLib-GObject-CRITICAL **: 12:47:32.125: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+1615812452363	Marionette	INFO	Listening on port 44275
+1615812452495	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5501): GLib-GObject-CRITICAL **: 12:47:35.080: g_object_set: assertion 'G_IS_OBJECT (object)' failed
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-home-function&version=0.0.6, line 46: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-home-function&version=0.0.6, line 46: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-home-function&version=0.0.6, line 46: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-home-function&version=0.0.6, line 46: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-home-function&version=0.0.6, line 46: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-home-function&version=0.0.6, line 46: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: TypeError: f is undefined
+1615812465645	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-an-toan-giao-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-an-toan-giao-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-an-toan-giao-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-an-toan-giao-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=kinh-doanh-tu-van-tai-chinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=kinh-doanh-tu-van-tai-chinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=kinh-doanh-tu-van-tai-chinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=kinh-doanh-tu-van-tai-chinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giai-tri-di-san-my-thuat-san-khau, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giai-tri-di-san-my-thuat-san-khau, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giai-tri-di-san-my-thuat-san-khau, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giai-tri-di-san-my-thuat-san-khau, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/Scripts/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-binh-luan-quoc-te, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-binh-luan-quoc-te, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-binh-luan-quoc-te, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-binh-luan-quoc-te, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-the-gioi-do-day, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-the-gioi-do-day, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-the-gioi-do-day, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-the-gioi-do-day, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-viet-nam-va-the-gioi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-viet-nam-va-the-gioi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-viet-nam-va-the-gioi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-viet-nam-va-the-gioi, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ho-so-vu-an, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ho-so-vu-an, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ho-so-vu-an, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ho-so-vu-an, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-tu-van-phap-luat, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-tu-van-phap-luat, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-tu-van-phap-luat, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-tu-van-phap-luat, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-quoc-te, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-quoc-te, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-quoc-te, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-quoc-te, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-xem-truc-tiep-bong-da, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-xem-truc-tiep-bong-da, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-xem-truc-tiep-bong-da, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-xem-truc-tiep-bong-da, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thong-tin-truyen-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thong-tin-truyen-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thong-tin-truyen-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thong-tin-truyen-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: TypeError: f is undefined
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe-tu-van-suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe-tu-van-suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe-tu-van-suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe-tu-van-suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=bat-dong-san-thi-truong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=bat-dong-san-thi-truong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=bat-dong-san-thi-truong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=bat-dong-san-thi-truong, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=ban-tron-truc-tuyen, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=ban-tron-truc-tuyen, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=ban-tron-truc-tuyen, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=ban-tron-truc-tuyen, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: TypeError: f is undefined
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 6765: ReferenceError: MenuTopCurrent is not defined
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: TypeError: f is undefined
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giao-duc, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giao-duc, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giao-duc, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giao-duc, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: TypeError: f is undefined
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=tuanvietnam-dachieu, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=tuanvietnam-dachieu, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=tuanvietnam-dachieu, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=tuanvietnam-dachieu, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-quan-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-quan-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-quan-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-gioi-quan-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: TypeError: f is undefined
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=oto-xe-may, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=oto-xe-may, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=oto-xe-may, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=oto-xe-may, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=phap-luat-ky-su-phap-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-an-toan-giao-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-an-toan-giao-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-an-toan-giao-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-an-toan-giao-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thoi-su-quoc-hoi, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: TypeError: f is undefined
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giai-tri-di-san-my-thuat-san-khau, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giai-tri-di-san-my-thuat-san-khau, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giai-tri-di-san-my-thuat-san-khau, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=giai-tri-di-san-my-thuat-san-khau, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v592/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thong-tin-truyen-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thong-tin-truyen-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thong-tin-truyen-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=thong-tin-truyen-thong, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://code.createjs.com/createjs-2015.11.26.min.js, line 12: TypeError: f is undefined
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=suc-khoe, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=doi-song-gia-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=doi-song-gia-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=doi-song-gia-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=doi-song-gia-dinh, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-detail-function&version=0.2.2, line 3108: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam-doi-tuyen-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam-doi-tuyen-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam-doi-tuyen-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam-doi-tuyen-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://vnn-res.vgcloud.vn/resources.jsx?alias=js-desktop-v9-cate-function&version=0.0.9, line 3857: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam-doi-tuyen-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam-doi-tuyen-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam-doi-tuyen-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript error: https://embed.vietnamnettv.vn/embed/footer-cate-detail.html?c=the-thao-bong-da-viet-nam-doi-tuyen-viet-nam, line 1: ReferenceError: LoadImage is not defined
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp507/js/rmp.min.js, line 7: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://embed.vietnamnettv.vn/rmp/v5100/js/rmp-hlsjs.min.js, line 13: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1615812978046	Marionette	INFO	Stopped listening on port 44275
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit {d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}.274877907090
