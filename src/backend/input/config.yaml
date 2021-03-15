@@ -2424,7 +2424,7 @@ crawling_list:
     - ./text()
     - ./@title
     topics_xpath:
-    - //a[text()]
+    - //a[2536text()]
     - //a[@title]
     skip_checking_topic_length: false
     display_browser: false
@@ -2533,7 +2533,7 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-    - Baogiaothong:
+- Baogiaothong:
     id_type: href
     browser_profile: ''
     web_url: https://xe.baogiaothong.vn
@@ -3384,7 +3384,7 @@ crawling_list:
     prevent_auto_redirect: false
     remove_me: false
 
-    - RingRing:
+- RingRing:
     id_type: href
     browser_profile: ''
     web_url: https://rinring.net
@@ -3450,7 +3450,7 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-    - Thanh Niên:
+- Thanh Niên:
     web_url: https://thanhnien.vn
     crawl_url: https://thanhnien.vn/xe
     language: vietnamese
@@ -3551,7 +3551,7 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-    - Thethao247:
+- Thethao247:
     id_type: href
     browser_profile: ''
     web_url: https://thethao247.vn/
@@ -3617,7 +3617,7 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-    - Tiền Phong :
+- Tiền Phong :
     id_type: href
     browser_profile: ''
     web_url: https://www.tienphong.vn/
@@ -3754,7 +3754,7 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-    - ToQuoc:
+- ToQuoc:
     id_type: href
     browser_profile: ''
     web_url: http://toquoc.vn
@@ -3949,7 +3949,7 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-    - VietNamFinance:
+- VietNamFinance:
     id_type: href
     browser_profile: ''
     web_url: https://vietnamfinance.vn
@@ -4276,73 +4276,7 @@ crawling_list:
     browser_profile: ''
     web_url: https://vov.vn
     remove_me: false
-    - VOV:
-    crawl_url: https://vov.vn/oto-xe-may
-    timezone: Asia/Ho_Chi_Minh
-    browser_fast_load: true
-    contain: ''
-    date_place: detail_page
-    image_title_xpath:
-    - .//tr[2]/td//node()[text()]
-    - .//div[text()]
-    get_topic_from_link: true
-    video_title_text_xpath: ''
-    topic_type: href
-    audio_box_xpath: []
-    language: vietnamese
-    skip_checking_topic_length: false
-    remove_date_tag_html: false
-    remove_content_html_xpaths: []
-    skip_repeat_topic: true
-    extract_xpath:
-    - ./text()
-    - ./@title
-    image_box_xpath:
-    - .//table[@class='contentimg']
-    - .//div[@class='item contentimg']
-    date_xpath:
-    - //div[@class='article__time']/a
-    - //div[@class='article__time']/a
-    remove_content_html: true
-    minimum_topic_length: 4
-    avatar_url: http://ainewsobj.6112cf5e.viettel-cdn.vn/bangtin/a1e35547-1fd4-4331-aea0-fd1bc355635b_small.jpg
-    image_title_text_xpath: ''
-    last_run: 20/11/2020 02:01
-    audio_title_text: ''
-    crawl_type: newspaper
-    display_browser: false
-    maximum_url: 10
-    output_html: false
-    text_xpath:
-    - .//p[text()]
-    get_detail_content: true
-    use_browser: false
-    get_publish_date_as_crawl_date: false
-    avatar_type: url
-    image_xpath: ''
-    use_index_number: false
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    content_xpath:
-    - //div[@class='article__body']/div[@class='text-long']
-    - //div[@class='article__body']/div[@class='text-long']
-    video_box_xpath: []
-    id_type: href
-    video_title_xpath: []
-    avatar_xpath: ''
-    ignore_topic_not_have_publish_date: true
-    audio_title_xpath: []
-    url_pattern_re: https://vov.vn/oto-xe-may
-    minimum_duration_between_crawls: 15
-    sapo_xpath: []
-    browser_profile: ''
-    web_url: https://vov.vn
-    remove_me: false
-    - VTC:
+- VTC:
     id_type: href
     browser_profile: ''
     web_url: https://vtc.vn
