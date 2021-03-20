@@ -631,7 +631,12 @@ class ArticleManager:
         topic_type = webconfig.get_topic_type()
         get_detail_content = webconfig.get_detail_content()
         extract_xpath = webconfig.get_extract_xpath()[xpath_index]
-        date_xpath = webconfig.get_date_xpath()[xpath_index]
+        
+        try:
+            date_xpath = webconfig.get_date_xpath()[xpath_index]
+        except:
+            date_xpath =  None
+            print(f"{bcolors.OKGREEN} ERROR data_xpath (add by hiep). {bcolors.ENDC}")
 
         contain_filter = webconfig.get_contain_filter()
         topic = ""
