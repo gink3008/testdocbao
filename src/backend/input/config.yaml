@@ -36,7 +36,7 @@ crawling_list:
     - //node()[@class='the-article-body']//img/@data-src
     - //node()[@class='the-article-body']//img/@data-src
     get_detail_content: true
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     skip_checking_topic_length: false
     remove_content_html: true
     audio_title_xpath: []
@@ -128,7 +128,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://xehay.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -194,7 +194,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://xetv.vn/news
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -257,7 +257,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://www.otosaigon.com
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
 - XeVaThiTruong:
     id_type: href
@@ -319,7 +319,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://xevathitruong.vn/
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -383,7 +383,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://news.otofun.net
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -449,7 +449,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://www.24h.com.vn/o-to
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -513,7 +513,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://autodaily.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -579,7 +579,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://autopress.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -644,7 +644,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://autopro.com.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -708,7 +708,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://autovina.com/article
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -771,7 +771,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: http://autozone.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -836,7 +836,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://xe.baogiaothong.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -902,7 +902,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://cafeauto.vn/thi-truong/
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -968,7 +968,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://carbuzz.com
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -1034,7 +1034,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://carpassion.vn/
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -1098,7 +1098,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://www.carscoops.com/
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -1162,7 +1162,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://congluan.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -1226,7 +1226,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://dailyxe.com.vn/tin-tuc
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -1292,7 +1292,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://dantri.com.vn/o-to-xe-may
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -1357,7 +1357,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://www.danhgiaxe.com
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -1424,7 +1424,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://danviet.vn/
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -1488,7 +1488,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://kienthuc.net.vn/o-to-xe-may
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -1555,7 +1555,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://oto.com.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -1621,7 +1621,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://www.oxii.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -1688,7 +1688,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://rinring.net
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -1707,7 +1707,7 @@ crawling_list:
     extract_xpath:
     - ./@title()
     contain: ''
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     skip_checking_topic_length: false
     get_publish_date_as_crawl_date: false
     date_place: detail_page
@@ -1789,7 +1789,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: http://thanhnienviet.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -1855,7 +1855,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://thethao247.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -1929,7 +1929,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://www.tienphong.vn/xe/
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -1992,7 +1992,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://tinxe.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -2058,7 +2058,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: http://toquoc.vn/
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -2122,7 +2122,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://vn.trangcongnghe.com
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -2187,7 +2187,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://tuoitrethudo.com.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -2251,7 +2251,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://vietnamfinance.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -2262,7 +2262,7 @@ crawling_list:
     prevent_auto_redirect: false
     display_browser: false
     get_detail_content: true
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     remove_content_html_xpaths:
     - .//node()[@class='bold ArticleLead' or @class='article-relate']
     - //div[@class='inner-article']
@@ -2384,7 +2384,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://vnexpress.net
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: true
     browser_timeout: 60
@@ -2451,7 +2451,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: (https://vnreview.vn/xe|https://vnreview.vn/auto-bike/xe)
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     remove_me: false
 - VOV:
@@ -2482,7 +2482,7 @@ crawling_list:
     - //div[@class='article__time']/a
     - //div[@class='article__time']/a
     remove_content_html: true
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     avatar_url: http://ainewsobj.6112cf5e.viettel-cdn.vn/bangtin/a1e35547-1fd4-4331-aea0-fd1bc355635b_small.jpg
     image_title_text_xpath: ''
     last_run: 20/11/2020 02:01
@@ -2581,7 +2581,7 @@ crawling_list:
     avatar_xpath: ''
     crawl_type: newspaper
     url_pattern_re: https://vtc.vn
-    minimum_topic_length: 4
+    minimum_topic_length: 20
     tags: []
     only_quality_post: false
     browser_timeout: 60
@@ -2590,7 +2590,7 @@ crawling_list:
 running_path: ~/docbao_crawler/
 number_of_trending_keywords: 25
 number_of_hot_keywords: 2000
-minimum_topic_length: 4
+minimum_topic_length: 20
 display_timezone: Asia/Ho_Chi_Minh
 hub_href: ''
 minimum_keyword_length_for_fast_growing_keyword_accepted: 2

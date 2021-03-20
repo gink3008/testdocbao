@@ -458,7 +458,7 @@ class ArticleManager:
             #try:
             html = read_url_source(url, webconfig, browser)
             if html is None:
-                print(f'{bcolors.FAIL} NONEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE {bcolors.ENDC}')
+                print(f'{bcolors.FAIL} html is None {bcolors.ENDC}')
                 return None
 
             #except:
@@ -638,7 +638,6 @@ class ArticleManager:
         topic_word_list = []
         has_visit = False
         result = None
-        print(f'{bcolors.OKGREEN} show get_topic_from_link : ------> {webconfig.get_topic_from_link()} {bcolors.ENDC}')
         if(webconfig.get_topic_from_link()):
             a=True
             while a:
@@ -646,10 +645,7 @@ class ArticleManager:
 
                 if "text" in topic_type:
                     print(f'{bcolors.FAIL}  webconfig.get_topic_from_link() ---- >  if "text" in topic_type {bcolors.ENDC}')
-
                     result= link.xpath(extract_xpath)
-                    print(f'{bcolors.WARNING} result ------>: {result} {bcolors.ENDC} ')
-
                     if (isinstance(result, list)) and len(result) > 0:
                         #print(result)
                         topic = str(result[0]).strip()
@@ -657,7 +653,7 @@ class ArticleManager:
                         print("Topic found: %s" % trim_topic(topic, max_length))
                         topic_word_list = topic.split()
                     else:
-                        print("Ignore. Extract result none. This link is not an article")
+                        print(f"{bcolors.FAIL}Ignore. Extract result none. This link is not an article{bcolors.ENDC}")
                         return (None, has_visit)
                 else:
                     topic = remove_html(get_tagstring_from_etree(link)).strip()
@@ -671,7 +667,6 @@ class ArticleManager:
         else:
             #try to crawl topic
             (result, detail_page_html_tree) = self.get_topic_of_an_url(fullurl, webconfig, detail_page_html_tree=detail_page_html_tree, browser=browser, extract_xpath=extract_xpath )
-            print(f'{bcolors.WARNING} result ------>: {result} {bcolors.ENDC} ')
 
             has_visit=True
             if result is not None:
@@ -680,7 +675,8 @@ class ArticleManager:
                     print("Topic found: %s" % trim_topic(topic, 10))
                     topic_word_list = topic.split()
                 else:
-                    print("Ignore. Can't find topic. This link is not an article")
+
+                    print(f"{bcolors.FAIL} Ignore. Can't find topic. This link is not an article {bcolors.ENDC}")
                     return (False, has_visit)
             else:
                 print("Can't open %s" % fullurl)
@@ -689,19 +685,19 @@ class ArticleManager:
         # check minimun topic length
         minimum_topic_length = webconfig.get_minimum_topic_length()
         if len(topic.strip().split()) < minimum_topic_length:
-            print("Ignore. Topic don't satisfy minimum length")
+            print(f"{bcolors.FAIL} Ignore. Topic don't satisfy minimum length {bcolors.ENDC}")
             return (False, has_visit)
 
         # check contain filter
         if not check_contain_filter(topic, contain_filter):
-            print("Ignore. Topic don't satisfy contain filter")
+            print(f"{bcolors.FAIL}Ignore. Topic don't satisfy contain filter{bcolors.ENDC}")
             return (False, has_visit)
 
         # check repeat topic
         repeat_topic = webconfig.get_limit_repeat_topic()
         if repeat_topic:
             if self.is_repeat_topic_of_same_newspaper(topic, webconfig):
-                print("Ignore. This is repeated topic")
+                print(f"{bcolors.FAIL}Ignore. This is repeated topic{bcolors.ENDC}")
                 return (False, has_visit)
 
 
@@ -712,12 +708,9 @@ class ArticleManager:
             # try to find published date
             if "detail_page" in date_place:
                 result = self.get_time_of_an_url(fullurl, webconfig, detail_page_html_tree=detail_page_html_tree,browser=browser, index=topic_index, date_xpath=date_xpath)
-                print(f'{bcolors.WARNING} result ------>: {result} {bcolors.ENDC} ')
-
                 has_visit=True
             else:
                 result = self.get_time_of_an_url(fullurl, webconfig, detail_page_html_tree=home_html_tree,browser=browser, index=topic_index, date_xpath=date_xpath)
-                print(f'{bcolors.WARNING} result ------>: {result} {bcolors.ENDC} ')
         
         if (result is not None): # found an article
             if result != False:
@@ -1435,14 +1428,16 @@ class ArticleManager:
                                             if only_quality_post:
                                                 if new_article.is_quality_content():
                                                     self.add_article(new_article)
-                                                    self.add_url_to_blacklist(fullurl)
+                                                    print(f"{bcolors.OKGREEN} delete function add_url_to_blacklist() {bcolors.ENDC}")
+                                                    # self.add_url_to_blacklist(fullurl)
                                                     count_lay +=1
+                                                    print(f"{bcolors.FAIL} number artical: {count_lay} {bcolors.ENDC}")
                                                     print("Crawler pid %s: Crawled articles: %s" % (my_pid, str(count_lay)))
                                                 else:
-                                                    print("Ignore. Not a quality post")
+                                                    print(f"{bcolors.FAIL}Ignore. Not a quality post {bcolors.ENDC}")
                                             else:
                                                 self.add_article(new_article)
-                                                self.add_url_to_blacklist(fullurl)
+                                                # self.add_url_to_blacklist(fullurl)
                                                 count_lay +=1
                                                 print("Crawler pid %s: Crawled articles: %s" % (my_pid, str(count_lay)))
 
@@ -1457,9 +1452,10 @@ class ArticleManager:
                                             blacklist.append(fullurl) # add invalid link to blacklist later to allow all link refer to the same fullurl will be checked
                                             print("Crawler pid %s: Wait finish crawling to add to blacklist" % my_pid)
                                     else: #timeout or smt else happended
-                                        print("Some errors happen. Check this link later")
+                                        print(f"{bcolors.FAIL}Some errors happen. Check this link later{bcolors.ENDC}")
 
                                     if count_visit >= maximum_url_to_visit:  # Stop crawling to not get caught by server
+                                        print(f"{bcolors.OKGREEN}if count_visit >= maximum_url_to_visit then stop : {bcolors.ENDC}")
                                         print("Crawler pid %s: Stop crawling %s to avoid being caught by server" % (my_pid, webname))
                                         for item in blacklist:
                                            self.add_url_to_blacklist(item)
@@ -1467,12 +1463,15 @@ class ArticleManager:
                             else:
                                 print("Crawler pid %s: This article has been in database" % my_pid)
                         else:
-                            print("Crawler pid %s: This link is in blacklist database" % my_pid)
+                            print(f"{bcolors.WARNING}Crawler pid {my_pid}: This link is in blacklist database {bcolors.ENDC}")
                             self.refresh_url_in_blacklist(fullurl)
             else:
-                print("Crawler pid %s: Can't open: %s" % (my_pid, webname))
+                print(f"{bcolors.WARNING}Crawler pid %s: Can't open: %s {bcolors.ENDC}" % (my_pid, webname))
             a=False
+
+
             for item in blacklist:
+                print(f"{bcolors.WARNING} source code add blacklist {bcolors.ENDC}")
                 self.add_url_to_blacklist(item)
 
         #except:
