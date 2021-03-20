@@ -2,7 +2,6 @@ days_to_crawl: 1095
 loop_interval_for_new_keyword_accepted: 2
 maximum_topic_display_length: 20
 crawling_list:
-
 - Zing:
     content_xpath:
     - //node()[@class='the-article-body']
@@ -54,7 +53,7 @@ crawling_list:
     get_publish_date_as_crawl_date: false
     video_title_xpath: []
     topic_type: href
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     avatar_xpath: ''
     browser_fast_load: true
     language: vietnamese
@@ -68,7 +67,7 @@ crawling_list:
     image_box_xpath:
     - //node()[@class='picture']
     skip_repeat_topic: true
-
+    remove_me: false
 - Xehay:
     id_type: href
     browser_profile: ''
@@ -100,7 +99,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://xehay.vn
     output_html: false
@@ -165,7 +164,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://xetv.vn/news
     output_html: false
@@ -229,7 +228,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: false
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://www.otosaigon.com
     output_html: false
@@ -259,6 +258,7 @@ crawling_list:
     url_pattern_re: https://www.otosaigon.com
     minimum_topic_length: 4
     tags: []
+    remove_me: false
 - XeVaThiTruong:
     id_type: href
     browser_profile: ''
@@ -290,7 +290,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 26/11/2020 06:11
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://xevathitruong.vn/
     output_html: false
@@ -356,7 +356,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://news.otofun.net
     output_html: false
@@ -420,7 +420,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://www.24h.com.vn/tin-tuc-o-to-c332.html
     output_html: false
@@ -454,6 +454,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - Autodaily:
     id_type: href
     browser_profile: ''
@@ -485,7 +486,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://autodaily.vn
     output_html: false
@@ -550,7 +551,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://autopress.vn
     output_html: false
@@ -616,7 +617,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://autopro.com.vn
     output_html: false
@@ -681,7 +682,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://autovina.com/news/tin-tuc
     output_html: false
@@ -713,6 +714,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - AutoZone:
     id_type: href
     browser_profile: ''
@@ -744,7 +746,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: http://autozone.vn
     output_html: false
@@ -808,7 +810,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://xe.baogiaothong.vn
     output_html: false
@@ -873,7 +875,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://cafeauto.vn/thi-truong/
     output_html: false
@@ -907,6 +909,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - Carbuzz:
     id_type: href
     browser_profile: ''
@@ -938,7 +941,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 08/12/2020 03:30
+    last_run: 20/03/2021 05:20
     contain: ''
     crawl_url: https://carbuzz.com
     output_html: false
@@ -1005,7 +1008,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 08/12/2020 07:35
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://carpassion.vn/tintuc/
     output_html: false
@@ -1071,7 +1074,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 05:20
     contain: ''
     crawl_url: https://www.carscoops.com
     output_html: false
@@ -1103,6 +1106,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - CongLuan:
     id_type: href
     browser_profile: ''
@@ -1134,7 +1138,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://congluan.vn/o-to--xe-may.html
     output_html: false
@@ -1167,6 +1171,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - DailyXe:
     id_type: href
     browser_profile: ''
@@ -1198,7 +1203,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://dailyxe.com.vn/tin-tuc
     output_html: false
@@ -1231,6 +1236,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - Dân trí:
     id_type: href
     browser_profile: ''
@@ -1262,7 +1268,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://dantri.com.vn/o-to-xe-may.htm
     output_html: false
@@ -1297,6 +1303,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - Danhgiaxe:
     id_type: href
     browser_profile: ''
@@ -1328,7 +1335,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://www.danhgiaxe.com/tin-xe-trong-nuoc
     output_html: false
@@ -1362,6 +1369,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - Danviet:
     id_type: href
     browser_profile: ''
@@ -1393,7 +1401,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://danviet.vn/o-to-xe-may.htm
     output_html: false
@@ -1429,6 +1437,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - Kienthuc_net:
     id_type: href
     browser_profile: ''
@@ -1460,7 +1469,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://kienthuc.net.vn/o-to-xe-may
     output_html: false
@@ -1494,7 +1503,6 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-
 - Oto_com_vn:
     id_type: href
     browser_profile: ''
@@ -1526,7 +1534,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 26/11/2020 03:36
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://oto.com.vn/tin-tuc
     output_html: false
@@ -1592,7 +1600,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://www.oxii.vn/xe
     output_html: false
@@ -1627,7 +1635,6 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-
 - RingRing:
     id_type: href
     browser_profile: ''
@@ -1659,7 +1666,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://rinring.net/category/xe-may-oto/
     output_html: false
@@ -1724,11 +1731,12 @@ crawling_list:
     output_html: false
     use_browser: true
     browser_profile: ''
-    display_browser: false 
+    display_browser: false
     browser_fast_load: true
     maximum_url: 10
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     minimum_duration_between_crawls: 15
+    remove_me: false
 - ThanhNienViet:
     id_type: href
     browser_profile: ''
@@ -1760,7 +1768,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: http://thanhnienviet.vn/category/o-to-xe-may
     output_html: false
@@ -1826,7 +1834,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://thethao247.vn/o-to-c200/
     output_html: false
@@ -1861,7 +1869,7 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-- Tiền Phong :
+- Tiền Phong:
     id_type: href
     browser_profile: ''
     web_url: https://www.tienphong.vn/
@@ -1898,7 +1906,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://www.tienphong.vn/thi-truong-xe/
     output_html: false
@@ -1934,6 +1942,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - Tinxe:
     id_type: href
     browser_profile: ''
@@ -1965,7 +1974,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://tinxe.vn
     output_html: false
@@ -2029,7 +2038,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: http://toquoc.vn/kinh-te/xe-co.htm
     output_html: false
@@ -2063,6 +2072,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - TrangCongNghe:
     id_type: href
     browser_profile: ''
@@ -2094,7 +2104,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://vn.trangcongnghe.com/oto-xe-may/
     output_html: false
@@ -2127,6 +2137,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - TuoiTreThuDo:
     id_type: href
     browser_profile: ''
@@ -2158,7 +2169,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://tuoitrethudo.com.vn/xe
     output_html: false
@@ -2223,7 +2234,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://vietnamfinance.vn/xe.htm
     output_html: false
@@ -2256,6 +2267,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - Vietnamnet:
     date_place: detail_page
     remove_content_html: true
@@ -2295,7 +2307,7 @@ crawling_list:
     crawl_type: newspaper
     crawl_url: https://vietnamnet.vn/vn/oto-xe-may
     audio_box_xpath: []
-    last_run: 22/07/2019 07:54
+    last_run: 20/03/2021 09:00
     timezone: Asia/Ho_Chi_Minh
     feature_image_xpath:
     - .//img/@src
@@ -2323,6 +2335,7 @@ crawling_list:
     remove_date_tag_html: true
     only_quality_post: true
     tags: []
+    remove_me: false
 - VnExpress:
     id_type: href
     browser_profile: ''
@@ -2354,7 +2367,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 02/06/2019 21:56
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://vnexpress.net/oto-xe-may
     output_html: false
@@ -2389,6 +2402,7 @@ crawling_list:
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
 - VnReview:
     id_type: href
     browser_profile: ''
@@ -2422,7 +2436,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 03:07
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://vnreview.vn/auto-bike
     output_html: false
@@ -2485,7 +2499,7 @@ crawling_list:
     minimum_topic_length: 4
     avatar_url: http://ainewsobj.6112cf5e.viettel-cdn.vn/bangtin/a1e35547-1fd4-4331-aea0-fd1bc355635b_small.jpg
     image_title_text_xpath: ''
-    last_run: 20/11/2020 02:01
+    last_run: 20/03/2021 09:00
     audio_title_text: ''
     crawl_type: newspaper
     display_browser: false
@@ -2551,7 +2565,7 @@ crawling_list:
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 20/11/2020 04:22
+    last_run: 20/03/2021 09:00
     contain: ''
     crawl_url: https://vtc.vn/oto-xe-may-37.html
     output_html: false

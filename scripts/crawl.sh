@@ -1,11 +1,11 @@
 #!/bin/bash -l
 set -a
-#source SETTINGS.env
+source SETTINGS.env
 set +a
 export local_dir=$DOCBAO_BASE_DIR
 export PYTHONPATH=$PYTHONPATH:$local_dir
-#source $local_dir/docbao_env/bin/activate
-source activate scrapy
+source $local_dir/docbao_env/bin/activate
+source activate
 
 echo "Start running docbao_crawler"
 cd $local_dir
