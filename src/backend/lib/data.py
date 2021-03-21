@@ -520,7 +520,11 @@ class ArticleManager:
         a= True
         while a:
         #try:
-            result = detail_page_html_tree.xpath(date_xpath)
+            try:
+                result = detail_page_html_tree.xpath(date_xpath)
+            except:
+                result = None
+                print_exception()
             #print(result)
             if isinstance(result, list):
                 if len(result) > 0:
