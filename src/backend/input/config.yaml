@@ -2,76 +2,910 @@ days_to_crawl: 1095
 loop_interval_for_new_keyword_accepted: 2
 maximum_topic_display_length: 20
 crawling_list:
-- Zing:
-    content_xpath:
-    - //node()[@class='the-article-body']
-    - //node()[@class='the-article-body']
-    browser_timeout: 60
-    image_title_xpath:
-    - //node()[@class='pCaption caption']
+- VTC:
+    id_type: href
+    browser_profile: ''
+    web_url: https://vtc.vn
+    timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@data-src
+    - .//img/@data-src
     extract_xpath:
     - ./text()
     - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
     display_browser: false
+    sapo_xpath:
+    - //h4[@class='font16 bold mb15']
+    - //h4[@class='font16 bold mb15']
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
     contain: ''
+    crawl_url: https://vtc.vn/oto-xe-may-37.html
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //div[@class='mb15 gray-91 font12']/span[@class='time-update mr10']
+    - //div[@class='mb15 gray-91 font12']/span[@class='time-update mr10']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='edittor-content box-cont clearfix']
+    - //div[@class='edittor-content box-cont clearfix']
+    text_xpath:
+    - .//p
+    - .//p
+    image_box_xpath:
+    - //figure
+    image_title_xpath:
+    - ./figcaption
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://vtc.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- VOV:
+    crawl_url: https://vov.vn/oto-xe-may
     timezone: Asia/Ho_Chi_Minh
+    browser_fast_load: true
+    contain: ''
+    date_place: detail_page
+    image_title_xpath:
+    - .//tr[2]/td//node()[text()]
+    - .//div[text()]
+    get_topic_from_link: true
+    video_title_text_xpath: ''
+    topic_type: href
+    audio_box_xpath: []
+    language: vietnamese
+    skip_checking_topic_length: false
+    remove_date_tag_html: false
+    remove_content_html_xpaths: []
+    skip_repeat_topic: true
+    extract_xpath:
+    - ./text()
+    - ./@title
+    image_box_xpath:
+    - .//table[@class='contentimg']
+    - .//div[@class='item contentimg']
+    date_xpath:
+    - //div[@class='article__time']/a
+    - //div[@class='article__time']/a
+    remove_content_html: true
+    minimum_topic_length: 2
+    avatar_url: http://ainewsobj.6112cf5e.viettel-cdn.vn/bangtin/a1e35547-1fd4-4331-aea0-fd1bc355635b_small.jpg
+    image_title_text_xpath: ''
+    last_run: 21/03/2021 09:55
+    audio_title_text: ''
+    crawl_type: newspaper
+    display_browser: false
+    maximum_url: 10
+    output_html: false
+    text_xpath:
+    - .//p[text()]
+    get_detail_content: true
+    use_browser: false
+    get_publish_date_as_crawl_date: false
+    avatar_type: url
+    image_xpath: ''
+    use_index_number: false
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    content_xpath:
+    - //div[@class='article__body']/div[@class='text-long']
+    - //div[@class='article__body']/div[@class='text-long']
+    video_box_xpath: []
+    id_type: href
+    video_title_xpath: []
+    avatar_xpath: ''
+    ignore_topic_not_have_publish_date: true
+    audio_title_xpath: []
+    url_pattern_re: https://vov.vn/o-to-xe-may
+    minimum_duration_between_crawls: 30
+    sapo_xpath: []
+    browser_profile: ''
+    web_url: https://vov.vn
+    remove_me: false
+- VnReview:
+    id_type: href
+    browser_profile: ''
+    web_url: https://vnreview.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: true
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths:
+    - //div[@class="journal-content-article"]/ins
+    - //*[@class="relationlinkParent"]
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class="journal-content-article"]/p[1][./strong]
+    - //div[@class="journal-content-article"]/p[1][./strong]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://vnreview.vn/auto-bike
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //span[@class="review-displaydate"]
+    - //span[@class="review-displaydate"]
+    topic_type: href
+    maximum_url: 10
+    get_detail_content: true
+    content_xpath:
+    - //div[@class="journal-content-article"]
+    - //div[@class="journal-content-article"]
+    text_xpath:
+    - //div[@class="journal-content-article"]/p[not(contains(@style, "center"))][not(position()=1)]
+    image_box_xpath:
+    - //div[@class="journal-content-article"]/p[.//img]
+    image_title_xpath:
+    - ./following-sibling::*[contains(@style,"center")][1]
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: (https://vnreview.vn/xe|https://vnreview.vn/auto-bike/xe)
+    minimum_topic_length: 2
+    tags: []
+    remove_me: false
+- VnExpress:
+    id_type: href
+    browser_profile: ''
+    web_url: https://vnexpress.net
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //p[@class="description"]
+    - //p[@class="description"]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://vnexpress.net/oto-xe-may
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //span[@class="date"]
+    - //span[@class="date"]
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //*[@class="fck_detail "]
+    - //*[@class="fck_detail "]
+    text_xpath:
+    - ./p
+    - ./div/p
+    image_box_xpath:
+    - .//figure
+    image_title_xpath:
+    - ./figcaption
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://vnexpress.net
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Vietnamnet:
+    date_place: detail_page
+    remove_content_html: true
+    prevent_auto_redirect: false
+    display_browser: false
+    get_detail_content: true
+    minimum_topic_length: 2
+    remove_content_html_xpaths:
+    - .//node()[@class='bold ArticleLead' or @class='article-relate']
+    - //div[@class='inner-article']
+    avatar_url: http://ainewsobj.6112cf5e.viettel-cdn.vn/bangtin/028b5766-50bc-4b5b-8c0b-e99ff05821c5_small.jpg
+    minimum_duration_between_crawls: 30
+    avatar_type: url
+    image_box_xpath:
+    - .//table[contains(@class, "image")]
+    sapo_xpath:
+    - //div[@class='bold ArticleLead']
+    - //div[@class='bold ArticleLead']
+    browser_profile: ''
+    maximum_url: 80
+    language: vietnamese
+    content_xpath:
+    - //div[@class='ArticleContent']
+    - //div[@class='ArticleContent']
+    browser_fast_load: true
+    use_browser: true
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    text_xpath:
+    - .//p[text()]
+    id_type: href
+    contain: ''
+    get_publish_date_as_crawl_date: false
+    ignore_topic_not_have_publish_date: true
+    video_box_xpath: []
+    crawl_type: newspaper
+    crawl_url: https://vietnamnet.vn/vn/oto-xe-may
+    audio_box_xpath: []
+    last_run: 21/03/2021 09:55
+    timezone: Asia/Ho_Chi_Minh
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    image_title_xpath:
+    - ./tbody/tr[2]/td
+    use_index_number: false
+    date_xpath:
+    - //span[@class="ArticleDate"]
+    - //span[@class="ArticleDate"]
+    skip_repeat_topic: true
+    web_url: https://vietnamnet.vn
+    browser_timeout: 60
+    video_title_xpath: []
+    url_pattern_re: https://vietnamnet.vn/vn/oto-xe-may
+    skip_checking_topic_length: false
+    output_html: false
+    audio_title_xpath: []
+    extract_xpath:
+    - ./text()
+    - ./@title
+    get_topic_from_link: true
+    avatar_xpath: ''
+    topic_type: href
+    remove_date_tag_html: true
+    only_quality_post: true
+    tags: []
+    remove_me: false
+- VietNamFinance:
+    id_type: href
+    browser_profile: ''
+    web_url: https://vietnamfinance.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - //div[@class='news-header']/div[@class='news-avatar']/img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //h2[@class="news-sapo"]
+    - //h2[@class="news-sapo"]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://vietnamfinance.vn/xe.htm
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //div[@class='news-author-info social-icons']
+    - //div[@class='news-author-info social-icons']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class="news-body-content"]
+    - //div[@class="news-body-content"]
+    text_xpath:
+    - ./p
+    - ./p
+    image_box_xpath: []
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://vietnamfinance.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- TuoiTreThuDo:
+    id_type: href
+    browser_profile: ''
+    web_url: https://tuoitrethudo.com.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //h2[@class='bx-desc f1 clearfix']
+    - //h2[@class='bx-desc f1 clearfix']
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://tuoitrethudo.com.vn/xe
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //span[@class='post-date']/span[@class='format_time']
+    - //span[@class='post-date']/span[@class='format_time']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='__MB_CONTENT clearfix']
+    - //div[@class='__MB_CONTENT clearfix']
+    text_xpath:
+    - .//p
+    - .//p
+    image_box_xpath:
+    - .//table
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://tuoitrethudo.com.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- TrangCongNghe:
+    id_type: href
+    browser_profile: ''
+    web_url: https://vn.trangcongnghe.com
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class='entry-content']/p[1]
+    - //div[@class='entry-content']/p[1]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://vn.trangcongnghe.com/oto-xe-may/
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //div[@class='entry-header']/ul/li[3]
+    - //div[@class='entry-header']/ul/li[3]
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='entry-content']
+    - //div[@class='entry-content']
+    text_xpath:
+    - ./p
+    image_box_xpath:
+    - .//div[@align='center']
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://vn.trangcongnghe.com
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- ToQuoc:
+    id_type: href
+    browser_profile: ''
+    web_url: http://toquoc.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //h2[@class="sapo"]
+    - //h2[@class="sapo"]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: http://toquoc.vn/kinh-te/xe-co.htm
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //span[@class="publishdate"]
+    - //span[@class="publishdate"]
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@data-role="content"]
+    - //div[@data-role="content"]
+    text_xpath:
+    - ./p
+    image_box_xpath:
+    - .//div[@class="VCSortableInPreviewMode active"]
+    image_title_xpath:
+    - ./div[@class="PhotoCMS_Caption"]
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: http://toquoc.vn/
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Tinxe:
+    id_type: href
+    browser_profile: ''
+    web_url: https://tinxe.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class='blog-detail']/div[@class='description']
+    - //div[@class='blog-detail']/div[@class='description']
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://tinxe.vn
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //p[@class='date-time']/span
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='content-detail group-image-lightbox']
+    - //div[@class='content-detail group-image-lightbox']
+    text_xpath:
+    - //div[@class='content-detail group-image-lightbox']/p
+    - //div[@class='content-detail group-image-lightbox']/p
+    image_box_xpath: []
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://tinxe.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Tiền Phong:
+    id_type: href
+    browser_profile: ''
+    web_url: https://www.tienphong.vn/
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: true
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths:
+    - //*[@class="region grey-region slider-region"]
+    - //*[@class="article-pin-social"]
+    - //*[@class="article-relate-b"]
+    - //*[@class="article-orginal-social"]
+    - //*[@class="banner box"]
+    - //div[@class="related-inline-story clearfix cms-relate"]
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //*[@class="article-sapo cms-desc"]
+    - //*[@class="article-sapo cms-desc"]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://www.tienphong.vn/thi-truong-xe/
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //*[@class="byline-dateline"]
+    - //*[@class="byline-dateline"]
+    topic_type: href
+    maximum_url: 30
+    get_detail_content: true
+    content_xpath:
+    - //*[@class="article-col-b"]
+    - //*[@class="article-col-b"]
+    text_xpath:
+    - .//div[@id="article-body"]/*[not(.//img)]
+    image_box_xpath:
+    - //div[@id="article-body"]/*[.//img]
+    - ./figure
+    image_title_xpath:
+    - ./figcaption
+    - .//*[@class="fig"]
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: https://images.tienphong.vn/web/App_Themes/img/logo-web.png
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://www.tienphong.vn/xe/
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Thethao247:
+    id_type: href
+    browser_profile: ''
+    web_url: https://thethao247.vn/
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //p[@class='typo_news_detail fbold']
+    - //p[@class='typo_news_detail fbold']
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://thethao247.vn/o-to-c200/
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //p[@class='ptimezone fregular']
+    - //p[@class='ptimezone fregular']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@id='main-detail']
+    - //div[@id='main-detail']
+    text_xpath:
+    - .//p
+    - .//p
+    image_box_xpath:
+    - //figure
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://thethao247.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- ThanhNienViet:
+    id_type: href
+    browser_profile: ''
+    web_url: http://thanhnienviet.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class='sapo_detail']/p
+    - //div[@class='sapo_detail']/p
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: http://thanhnienviet.vn/category/o-to-xe-may
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //div[@class='time_detail_news  pkg']/i[@class='fa fa-clock-o']
+    - //div[@class='time_detail_news  pkg']/i[@class='fa fa-clock-o']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@id='cotent_detail']
+    - //div[@id='cotent_detail']
+    text_xpath:
+    - .//p
+    - .//p
+    image_box_xpath:
+    - .//div/figure
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: http://thanhnienviet.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Thanh Niên:
+    web_url: https://thanhnien.vn
+    crawl_url: https://thanhnien.vn/xe
+    language: vietnamese
+    id_type: href
+    url_pattern_re: (http|https)://thanhnien.vn/xe
+    get_topic_from_link: true
+    topics_xpath:
+    - //a[contains(@href, 'html') and @title and not(descendant::img) and not(@class='heading')]
+    topic_type: href
+    extract_xpath:
+    - ./@title()
+    contain: ''
+    minimum_topic_length: 2
+    skip_checking_topic_length: false
+    get_publish_date_as_crawl_date: false
+    date_place: detail_page
+    date_xpath:
+    - //header[@class='details-heading'] | (//div[@class="details__meta"])[1]
+    use_index_number: false
+    date_re:
+    - (\d{1,2}:\d{1,2} \d{1,2}[\/\-\.]\d{1,2}[\/\-\.]\d{2,4})
+    - (\d{1,2}:\d{1,2} \- \d{1,2}[\/\-\.]\d{1,2}[\/\-\.]\d{2,4})
+    date_pattern:
+    - '%H:%M %d/%m/%Y'
+    - '%H:%M - %d/%m/%Y'
+    timezone: Asia/Ho_Chi_Minh
+    output_html: false
     use_browser: true
     browser_profile: ''
-    use_index_number: false
-    url_pattern_re: https://news.zing.vn
-    output_html: false
-    audio_box_xpath: []
-    minimum_duration_between_crawls: 30
-    id_type: href
-    get_topic_from_link: true
-    video_box_xpath: []
-    avatar_url: http://ainewsobj.6112cf5e.viettel-cdn.vn/bangtin/d86dfeef-2567-42b3-a638-72737bc3f4da_small.jpg
-    sapo_xpath:
-    - //node()[@class='the-article-summary']/text()
-    - //node()[@class='the-article-summary']/text()
-    crawl_url: https://zingnews.vn/oto-xe-may.html
-    feature_image_xpath:
-    - //node()[@class='the-article-body']//img/@data-src
-    - //node()[@class='the-article-body']//img/@data-src
-    get_detail_content: true
-    minimum_topic_length: 2
-    skip_checking_topic_length: false
-    remove_content_html: true
-    audio_title_xpath: []
-    date_place: detail_page
-    crawl_type: newspaper
-    avatar_type: url
-    date_xpath:
-    - //node()[@class='the-article-publish']
-    - //node()[@class='the-article-publish']
-    maximum_url: 30
-    prevent_auto_redirect: false
-    remove_content_html_xpaths:
-    - //node()[@class='notebox ncenter']
-    - //node()[@class='interview']
-    get_publish_date_as_crawl_date: false
-    video_title_xpath: []
-    topic_type: href
-    last_run: 21/03/2021 09:36
-    avatar_xpath: ''
+    display_browser: false
     browser_fast_load: true
-    language: vietnamese
-    text_xpath:
-    - //node()[@class='the-article-body']/p
-    ignore_topic_not_have_publish_date: true
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    web_url: https://news.zing.vn
-    image_box_xpath:
-    - //node()[@class='picture']
-    skip_repeat_topic: true
+    maximum_url: 10
+    last_run: 21/03/2021 09:55
+    minimum_duration_between_crawls: 30
     remove_me: false
-- Xehay:
+- RingRing:
     id_type: href
     browser_profile: ''
-    web_url: https://xehay.vn
+    web_url: https://rinring.net
     timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
     remove_content_html: true
@@ -91,32 +925,33 @@ crawling_list:
     skip_checking_topic_length: false
     display_browser: false
     sapo_xpath:
-    - //div[@itemprop="articleBody"]/p/strong
-    - //div[@itemprop="articleBody"]/p/strong
+    - //div[@class='entry-content']/p[1]
+    - //div[@class='entry-content']/p[1]
     get_publish_date_as_crawl_date: false
     browser_fast_load: true
     skip_repeat_topic: true
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
+    last_run: 21/03/2021 09:55
     contain: ''
-    crawl_url: https://xehay.vn
+    crawl_url: https://rinring.net/category/xe-may-oto/
     output_html: false
     get_topic_from_link: true
     date_xpath:
-    - //div[@class='title']/div[@class='datetime']
-    - //div[@class='title']/div[@class='datetime']
+    - //meta[@property='article:published_time']/@content
+    - //meta[@property='article:published_time']/@content
     topic_type: href
     maximum_url: 50
     get_detail_content: true
     content_xpath:
-    - //div[@class='news-content']/div[@class='divfirst']
-    - //div[@class='news-content']/div[@class='divfirst']
+    - //div[@class='entry-content']
+    - //div[@class='entry-content']
     text_xpath:
-    - //div[@class='news-content']/div[@class='divfirst']/p
-    - //div[@class='news-content']/div[@class='divfirst']/p
-    image_box_xpath: []
+    - //p
+    - //p
+    image_box_xpath:
+    - //figure
     image_title_xpath: []
     video_box_xpath: []
     video_title_xpath: []
@@ -126,17 +961,17 @@ crawling_list:
     avatar_url: ''
     avatar_xpath: ''
     crawl_type: newspaper
-    url_pattern_re: https://xehay.vn
+    url_pattern_re: https://rinring.net
     minimum_topic_length: 2
     tags: []
     only_quality_post: false
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-- XeTv:
+- Oxii:
     id_type: href
     browser_profile: ''
-    web_url: https://xetv.vn
+    web_url: https://www.oxii.vn
     timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
     remove_content_html: true
@@ -156,96 +991,33 @@ crawling_list:
     skip_checking_topic_length: false
     display_browser: false
     sapo_xpath:
-    - //div[@id='penci-post-entry-inner']/p[1]
-    - //div[@id='penci-post-entry-inner']/p[1]
+    - //div[contains(@class, 'article-summary')]
+    - //div[contains(@class, 'article-summary')]
     get_publish_date_as_crawl_date: false
     browser_fast_load: true
     skip_repeat_topic: true
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
+    last_run: 21/03/2021 09:55
     contain: ''
-    crawl_url: https://xetv.vn/news
+    crawl_url: https://www.oxii.vn/xe
     output_html: false
     get_topic_from_link: true
     date_xpath:
-    - //div[@class='post-box-meta-single']/span/time[@class='entry-date published']/@datetime
+    - //meta[@name='pubdate']/@content
+    - //meta[@name='pubdate']/@content
     topic_type: href
     maximum_url: 50
     get_detail_content: true
     content_xpath:
-    - //div[@id='penci-post-entry-inner']
-    - //div[@id='penci-post-entry-inner']
+    - //div[@id='article-content']
+    - //div[@id='article-content']
     text_xpath:
-    - .//p
-    - .//p
+    - //p
+    - //p
     image_box_xpath:
-    - //div[@class='post-image']
-    image_title_xpath:
-    - ./a/img/@title
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://xetv.vn/news
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Otosaigon:
-    id_type: href
-    browser_profile: ''
-    web_url: https://www.otosaigon.com
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath: []
-    get_publish_date_as_crawl_date: true
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: false
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://www.otosaigon.com
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //time
-    - //time
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //article
-    - //article
-    text_xpath:
-    - ./*
-    image_box_xpath:
-    - .//img
+    - .//div
     image_title_xpath: []
     video_box_xpath: []
     video_title_xpath: []
@@ -255,14 +1027,17 @@ crawling_list:
     avatar_url: ''
     avatar_xpath: ''
     crawl_type: newspaper
-    url_pattern_re: https://www.otosaigon.com
+    url_pattern_re: https://www.oxii.vn
     minimum_topic_length: 2
     tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
     remove_me: false
-- XeVaThiTruong:
+- Oto_com_vn:
     id_type: href
     browser_profile: ''
-    web_url: https://xevathitruong.vn
+    web_url: https://oto.com.vn
     timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
     remove_content_html: true
@@ -282,17 +1057,17 @@ crawling_list:
     skip_checking_topic_length: false
     display_browser: false
     sapo_xpath:
-    - //blockquote
-    - //blockquote
+    - //h2[@class="description"]
+    - //h2[@class="description"]
     get_publish_date_as_crawl_date: false
     browser_fast_load: true
     skip_repeat_topic: true
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
+    last_run: 21/03/2021 09:55
     contain: ''
-    crawl_url: https://xevathitruong.vn/
+    crawl_url: https://oto.com.vn/tin-tuc
     output_html: false
     get_topic_from_link: true
     date_xpath:
@@ -302,599 +1077,14 @@ crawling_list:
     maximum_url: 50
     get_detail_content: true
     content_xpath:
-    - //div[@class="main-content wow fadeIn"]
-    - //div[@class="main-content wow fadeIn"]
-    text_xpath:
-    - ./p/span
-    - ./p/span/span
-    - ./p
-    image_box_xpath: []
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://xevathitruong.vn/
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Otofun:
-    id_type: href
-    browser_profile: ''
-    web_url: https://news.otofun.net
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='article-content __MASTERCMS_CONTENT __MB_CONTENT_FOR_PRINTER']/strong
-    - //div[@class='article-content __MASTERCMS_CONTENT __MB_CONTENT_FOR_PRINTER']/strong
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://news.otofun.net
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //div[@class='the-time']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='__MB_MASTERCMS_EL']
-    - //div[@class='__MB_MASTERCMS_EL']
-    text_xpath:
-    - //div[@class='__MB_MASTERCMS_EL']/p
-    - //div[@class='__MB_MASTERCMS_EL']/p
-    image_box_xpath: []
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://news.otofun.net
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- 24h:
-    id_type: href
-    browser_profile: ''
-    web_url: https://www.24h.com.vn/
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //h2[@id='article_sapo']
-    - //h2[@id='article_sapo']
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://www.24h.com.vn/tin-tuc-o-to-c332.html
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //div[@class='updTm updTmD mrT5']
-    - //div[@class='updTm updTmD mrT5']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //article[@id='article_body']
-    - //article[@id='article_body']
+    - //div[@id="contentNewsMain"]/div[1]
+    - //div[@id="contentNewsMain"]/div[1]
     text_xpath:
     - ./p
-    - ./p
-    image_box_xpath:
-    - .//p[@align='center']
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://www.24h.com.vn/o-to
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Autodaily:
-    id_type: href
-    browser_profile: ''
-    web_url: https://autodaily.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class="article-detail-hd"]/p
-    - //div[@class="article-detail-hd"]/p
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://autodaily.vn
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //p[@class='article-date-time a-right']
-    - //p[@class='article-date-time a-right']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class="article-detail"]
-    - //div[@class="article-detail"]
-    text_xpath:
-    - //div[@class="article-detail"]/p
-    - //div[@class="article-detail"]/p
-    image_box_xpath: []
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://autodaily.vn
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- AutoExpress:
-    id_type: href
-    browser_profile: ''
-    web_url: https://autopress.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='article-description']
-    - //div[@class='article-description']
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://autopress.vn
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //span[@class='article-date']
-    - //span[@class='article-date']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@id='BoxNewContentInfo']
-    - //div[@id='BoxNewContentInfo']
-    text_xpath:
-    - .//p
-    - .//p
-    image_box_xpath:
-    - //div[@class='post-image']
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://autopress.vn
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Autopro:
-    id_type: href
-    browser_profile: ''
-    web_url: https://autopro.com.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //h2[@class='sapo']
-    - //h2[@class='sapo']
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://autopro.com.vn
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //p[@class='time-detail']/@title
-    - //p[@class='time-detail']/@title
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='contentbody']/div[@class='content-news-detail']
-    - //div[@class='contentbody']/div[@class='content-news-detail']
-    text_xpath:
-    - //div[@class='contentbody']/div[@class='content-news-detail']/p
-    - //div[@class='contentbody']/div[@class='content-news-detail']/p
-    image_box_xpath: []
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://autopro.com.vn
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- AutoVina:
-    id_type: href
-    browser_profile: ''
-    web_url: https://autovina.com
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[2536text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='row-fluid']/strong
-    - //div[@class='row-fluid']/strong
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://autovina.com/news/tin-tuc
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //div[@class='span12 seotitle']
-    - //div[@class='span12 seotitle']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='span8 infor col-left']/div[@class='text']
-    - //div[@class='span8 infor col-left']/div[@class='text']
-    text_xpath:
-    - ./p
-    image_box_xpath: []
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://autovina.com/article
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- AutoZone:
-    id_type: href
-    browser_profile: ''
-    web_url: http://autozone.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //article/div[3]/p[1]/strong
-    - //article/div[3]/p[1]/strong
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: http://autozone.vn
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //*[@id="content"]/div/div[1]/div/div/span/time
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //article/div[@class='entry-content clearfix single-post-content']
-    - //article/div[@class='entry-content clearfix single-post-content']
-    text_xpath:
-    - //article/div[@class='entry-content clearfix single-post-content']/p
-    - //article/div[@class='entry-content clearfix single-post-content']/p
-    image_box_xpath: []
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: http://autozone.vn
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Baogiaothong:
-    id_type: href
-    browser_profile: ''
-    web_url: https://xe.baogiaothong.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@data-original
-    - .//img/@data-original
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //span[@class='clrTit bld']
-    - //span[@class='clrTit bld']
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://xe.baogiaothong.vn
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //span[@class='sb-tpic clrGre']
-    - //span[@class='sb-tpic clrGre']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='content-body']
-    - //div[@class='content-body']
-    text_xpath:
-    - //div[@class='content-body']/p
-    - //div[@class='content-body']/p
-    image_box_xpath: []
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://xe.baogiaothong.vn
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- CafeAuto:
-    id_type: href
-    browser_profile: ''
-    web_url: https://cafeauto.vn/
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class="sevenPostDes pb15"]
-    - //div[@class="sevenPostDes pb15"]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://cafeauto.vn/thi-truong/
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //span[@class='date']/span
-    - //span[@class='date']/span
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@id="sevenBoxNewContentInfo"]
-    - //div[@id="sevenBoxNewContentInfo"]
-    text_xpath:
-    - ./p[not(contains(@style,"center"))]
     image_box_xpath:
     - .//p[(contains(@style,"center"))]
     image_title_xpath:
-    - .a/@title
+    - //img/@alt
     video_box_xpath: []
     video_title_xpath: []
     audio_box_xpath: []
@@ -903,7 +1093,533 @@ crawling_list:
     avatar_url: ''
     avatar_xpath: ''
     crawl_type: newspaper
-    url_pattern_re: https://cafeauto.vn/thi-truong/
+    url_pattern_re: https://oto.com.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Kienthuc_net:
+    id_type: href
+    browser_profile: ''
+    web_url: https://kienthuc.net.vn/
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //h2[@class='sapo cms-desc']
+    - //h2[@class='sapo cms-desc']
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://kienthuc.net.vn/o-to-xe-may
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //div[@class='meta clearfix']/time
+    - //div[@class='meta clearfix']/time
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@id='abody']
+    - //div[@id='abody']
+    text_xpath:
+    - //div[@id='abody']/p
+    - //div[@id='abody']/p
+    image_box_xpath: []
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://kienthuc.net.vn/o-to-xe-may
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Danviet:
+    id_type: href
+    browser_profile: ''
+    web_url: https://danviet.vn/
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class="sapo"]
+    - //div[@class="sapo"]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://danviet.vn/o-to-xe-may.htm
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //span[@data-role="publishdate"]/i
+    - //span[@data-role="publishdate"]/i
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class="dt-content"]/div[@data-role='content']
+    - //div[@class="dt-content"]/div[@data-role='content']
+    text_xpath:
+    - ./h2
+    - ./h3
+    - ./p
+    image_box_xpath:
+    - .//figure
+    image_title_xpath:
+    - ./figcaption
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://danviet.vn/
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Danhgiaxe:
+    id_type: href
+    browser_profile: ''
+    web_url: https://www.danhgiaxe.com
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class='article-detail article']/div/p[1]
+    - //div[@class='article-detail article']/div/p[1]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://www.danhgiaxe.com/tin-xe-trong-nuoc
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //div[@class='right']
+    - //div[@class='right']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='article-detail article']
+    - //div[@class='article-detail article']
+    text_xpath:
+    - ./div/p
+    - ./div/p
+    image_box_xpath:
+    - .//div[@class='medium-insert-images']
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://www.danhgiaxe.com
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Dân trí:
+    id_type: href
+    browser_profile: ''
+    web_url: https://dantri.com.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class="dt-news__sapo"]
+    - //div[@class="dt-news__sapo"]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://dantri.com.vn/o-to-xe-may.htm
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //span[@class="dt-news__time"]
+    - //span[@class="dt-news__time"]
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class="dt-news__content"]
+    - //div[@class="dt-news__content"]
+    text_xpath:
+    - ./p
+    - ./div/p
+    image_box_xpath:
+    - .//figure
+    image_title_xpath:
+    - ./figcaption
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://dantri.com.vn/o-to-xe-may
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- DailyXe:
+    id_type: href
+    browser_profile: ''
+    web_url: https://dailyxe.com.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@id="qcbody"]/h2
+    - //div[@id="qcbody"]/h2
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://dailyxe.com.vn/tin-tuc
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //span[@class="time"]
+    - //span[@class="time"]
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@id="qcbody"]
+    - //div[@id="qcbody"]
+    text_xpath:
+    - ./p
+    image_box_xpath:
+    - .//figure
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://dailyxe.com.vn/tin-tuc
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- CongLuan:
+    id_type: href
+    browser_profile: ''
+    web_url: https://congluan.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class='w100 intro_detail']/p
+    - //div[@class='w100 intro_detail']/p
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://congluan.vn/o-to--xe-may.html
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //time[@class='timeStamp']
+    - //time[@class='timeStamp']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@id='content_detail']
+    - //div[@id='content_detail']
+    text_xpath:
+    - ./p
+    image_box_xpath:
+    - .//figure
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://congluan.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Carscoops:
+    id_type: href
+    browser_profile: ''
+    web_url: https://www.carscoops.com
+    timezone: US/Eastern
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class='entry-content']/p[1]
+    - //div[@class='entry-content']/p[1]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:36
+    contain: ''
+    crawl_url: https://www.carscoops.com
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //time[@class='entry-date published']/@datetime
+    - //time[@class='entry-date published']/@datetime
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='entry-content']
+    - //div[@class='entry-content']
+    text_xpath:
+    - ./p
+    image_box_xpath: []
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://www.carscoops.com/
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- carpassion:
+    id_type: href
+    browser_profile: ''
+    web_url: https://carpassion.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class='td-post-content']/p[1]
+    - //div[@class='td-post-content']/p[1]
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://carpassion.vn/tintuc/
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //time[@class='entry-date updated td-module-date']/@datetime
+    - //time[@class='entry-date updated td-module-date']/@datetime
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='td-post-content']
+    - //div[@class='td-post-content']
+    text_xpath:
+    - ./p
+    - ./p
+    image_box_xpath:
+    - .//figure
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://carpassion.vn/
     minimum_topic_length: 2
     tags: []
     only_quality_post: true
@@ -977,10 +1693,10 @@ crawling_list:
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-- carpassion:
+- CafeAuto:
     id_type: href
     browser_profile: ''
-    web_url: https://carpassion.vn
+    web_url: https://cafeauto.vn/
     timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
     remove_content_html: true
@@ -1000,560 +1716,34 @@ crawling_list:
     skip_checking_topic_length: false
     display_browser: false
     sapo_xpath:
-    - //div[@class='td-post-content']/p[1]
-    - //div[@class='td-post-content']/p[1]
+    - //div[@class="sevenPostDes pb15"]
+    - //div[@class="sevenPostDes pb15"]
     get_publish_date_as_crawl_date: false
     browser_fast_load: true
     skip_repeat_topic: true
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
+    last_run: 21/03/2021 09:55
     contain: ''
-    crawl_url: https://carpassion.vn/tintuc/
+    crawl_url: https://cafeauto.vn/thi-truong/
     output_html: false
     get_topic_from_link: true
     date_xpath:
-    - //time[@class='entry-date updated td-module-date']/@datetime
-    - //time[@class='entry-date updated td-module-date']/@datetime
+    - //span[@class='date']/span
+    - //span[@class='date']/span
     topic_type: href
     maximum_url: 50
     get_detail_content: true
     content_xpath:
-    - //div[@class='td-post-content']
-    - //div[@class='td-post-content']
+    - //div[@id="sevenBoxNewContentInfo"]
+    - //div[@id="sevenBoxNewContentInfo"]
     text_xpath:
-    - ./p
-    - ./p
-    image_box_xpath:
-    - .//figure
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://carpassion.vn/
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Carscoops:
-    id_type: href
-    browser_profile: ''
-    web_url: https://www.carscoops.com
-    timezone: US/Eastern
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='entry-content']/p[1]
-    - //div[@class='entry-content']/p[1]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://www.carscoops.com
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //time[@class='entry-date published']/@datetime
-    - //time[@class='entry-date published']/@datetime
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='entry-content']
-    - //div[@class='entry-content']
-    text_xpath:
-    - ./p
-    image_box_xpath: []
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://www.carscoops.com/
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- CongLuan:
-    id_type: href
-    browser_profile: ''
-    web_url: https://congluan.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='w100 intro_detail']/p
-    - //div[@class='w100 intro_detail']/p
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://congluan.vn/o-to--xe-may.html
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //time[@class='timeStamp']
-    - //time[@class='timeStamp']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@id='content_detail']
-    - //div[@id='content_detail']
-    text_xpath:
-    - ./p
-    image_box_xpath:
-    - .//figure
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://congluan.vn
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- DailyXe:
-    id_type: href
-    browser_profile: ''
-    web_url: https://dailyxe.com.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@id="qcbody"]/h2
-    - //div[@id="qcbody"]/h2
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://dailyxe.com.vn/tin-tuc
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //span[@class="time"]
-    - //span[@class="time"]
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@id="qcbody"]
-    - //div[@id="qcbody"]
-    text_xpath:
-    - ./p
-    image_box_xpath:
-    - .//figure
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://dailyxe.com.vn/tin-tuc
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Dân trí:
-    id_type: href
-    browser_profile: ''
-    web_url: https://dantri.com.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class="dt-news__sapo"]
-    - //div[@class="dt-news__sapo"]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://dantri.com.vn/o-to-xe-may.htm
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //span[@class="dt-news__time"]
-    - //span[@class="dt-news__time"]
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class="dt-news__content"]
-    - //div[@class="dt-news__content"]
-    text_xpath:
-    - ./p
-    - ./div/p
-    image_box_xpath:
-    - .//figure
-    image_title_xpath:
-    - ./figcaption
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://dantri.com.vn/o-to-xe-may
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Danhgiaxe:
-    id_type: href
-    browser_profile: ''
-    web_url: https://www.danhgiaxe.com
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='article-detail article']/div/p[1]
-    - //div[@class='article-detail article']/div/p[1]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://www.danhgiaxe.com/tin-xe-trong-nuoc
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //div[@class='right']
-    - //div[@class='right']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='article-detail article']
-    - //div[@class='article-detail article']
-    text_xpath:
-    - ./div/p
-    - ./div/p
-    image_box_xpath:
-    - .//div[@class='medium-insert-images']
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://www.danhgiaxe.com
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Danviet:
-    id_type: href
-    browser_profile: ''
-    web_url: https://danviet.vn/
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class="sapo"]
-    - //div[@class="sapo"]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://danviet.vn/o-to-xe-may.htm
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //span[@data-role="publishdate"]/i
-    - //span[@data-role="publishdate"]/i
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class="dt-content"]/div[@data-role='content']
-    - //div[@class="dt-content"]/div[@data-role='content']
-    text_xpath:
-    - ./h2
-    - ./h3
-    - ./p
-    image_box_xpath:
-    - .//figure
-    image_title_xpath:
-    - ./figcaption
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://danviet.vn/
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Kienthuc_net:
-    id_type: href
-    browser_profile: ''
-    web_url: https://kienthuc.net.vn/
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //h2[@class='sapo cms-desc']
-    - //h2[@class='sapo cms-desc']
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://kienthuc.net.vn/o-to-xe-may
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //div[@class='meta clearfix']/time
-    - //div[@class='meta clearfix']/time
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@id='abody']
-    - //div[@id='abody']
-    text_xpath:
-    - //div[@id='abody']/p
-    - //div[@id='abody']/p
-    image_box_xpath: []
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://kienthuc.net.vn/o-to-xe-may
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Oto_com_vn:
-    id_type: href
-    browser_profile: ''
-    web_url: https://oto.com.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //h2[@class="description"]
-    - //h2[@class="description"]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://oto.com.vn/tin-tuc
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //span[@class="date"]
-    - //span[@class="date"]
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@id="contentNewsMain"]/div[1]
-    - //div[@id="contentNewsMain"]/div[1]
-    text_xpath:
-    - ./p
+    - ./p[not(contains(@style,"center"))]
     image_box_xpath:
     - .//p[(contains(@style,"center"))]
     image_title_xpath:
-    - //img/@alt
+    - .a/@title
     video_box_xpath: []
     video_title_xpath: []
     audio_box_xpath: []
@@ -1562,17 +1752,17 @@ crawling_list:
     avatar_url: ''
     avatar_xpath: ''
     crawl_type: newspaper
-    url_pattern_re: https://oto.com.vn
+    url_pattern_re: https://cafeauto.vn/thi-truong/
     minimum_topic_length: 2
     tags: []
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-- Oxii:
+- Baogiaothong:
     id_type: href
     browser_profile: ''
-    web_url: https://www.oxii.vn
+    web_url: https://xe.baogiaothong.vn
     timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
     remove_content_html: true
@@ -1581,8 +1771,8 @@ crawling_list:
     minimum_duration_between_crawls: 30
     language: vietnamese
     feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
+    - .//img/@data-original
+    - .//img/@data-original
     extract_xpath:
     - ./text()
     - ./@title
@@ -1592,404 +1782,31 @@ crawling_list:
     skip_checking_topic_length: false
     display_browser: false
     sapo_xpath:
-    - //div[contains(@class, 'article-summary')]
-    - //div[contains(@class, 'article-summary')]
+    - //span[@class='clrTit bld']
+    - //span[@class='clrTit bld']
     get_publish_date_as_crawl_date: false
     browser_fast_load: true
     skip_repeat_topic: true
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
+    last_run: 21/03/2021 09:55
     contain: ''
-    crawl_url: https://www.oxii.vn/xe
+    crawl_url: https://xe.baogiaothong.vn
     output_html: false
     get_topic_from_link: true
     date_xpath:
-    - //meta[@name='pubdate']/@content
-    - //meta[@name='pubdate']/@content
+    - //span[@class='sb-tpic clrGre']
+    - //span[@class='sb-tpic clrGre']
     topic_type: href
     maximum_url: 50
     get_detail_content: true
     content_xpath:
-    - //div[@id='article-content']
-    - //div[@id='article-content']
+    - //div[@class='content-body']
+    - //div[@class='content-body']
     text_xpath:
-    - //p
-    - //p
-    image_box_xpath:
-    - .//div
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://www.oxii.vn
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- RingRing:
-    id_type: href
-    browser_profile: ''
-    web_url: https://rinring.net
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='entry-content']/p[1]
-    - //div[@class='entry-content']/p[1]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://rinring.net/category/xe-may-oto/
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //meta[@property='article:published_time']/@content
-    - //meta[@property='article:published_time']/@content
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='entry-content']
-    - //div[@class='entry-content']
-    text_xpath:
-    - //p
-    - //p
-    image_box_xpath:
-    - //figure
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://rinring.net
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Thanh Niên:
-    web_url: https://thanhnien.vn
-    crawl_url: https://thanhnien.vn/xe
-    language: vietnamese
-    id_type: href
-    url_pattern_re: (http|https)://thanhnien.vn/xe
-    get_topic_from_link: true
-    topics_xpath:
-    - //a[contains(@href, 'html') and @title and not(descendant::img) and not(@class='heading')]
-    topic_type: href
-    extract_xpath:
-    - ./@title()
-    contain: ''
-    minimum_topic_length: 2
-    skip_checking_topic_length: false
-    get_publish_date_as_crawl_date: false
-    date_place: detail_page
-    date_xpath:
-    - //header[@class='details-heading'] | (//div[@class="details__meta"])[1]
-    use_index_number: false
-    date_re:
-    - (\d{1,2}:\d{1,2} \d{1,2}[\/\-\.]\d{1,2}[\/\-\.]\d{2,4})
-    - (\d{1,2}:\d{1,2} \- \d{1,2}[\/\-\.]\d{1,2}[\/\-\.]\d{2,4})
-    date_pattern:
-    - '%H:%M %d/%m/%Y'
-    - '%H:%M - %d/%m/%Y'
-    timezone: Asia/Ho_Chi_Minh
-    output_html: false
-    use_browser: true
-    browser_profile: ''
-    display_browser: false
-    browser_fast_load: true
-    maximum_url: 10
-    last_run: 21/03/2021 09:36
-    minimum_duration_between_crawls: 30
-    remove_me: false
-- ThanhNienViet:
-    id_type: href
-    browser_profile: ''
-    web_url: http://thanhnienviet.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='sapo_detail']/p
-    - //div[@class='sapo_detail']/p
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: http://thanhnienviet.vn/category/o-to-xe-may
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //div[@class='time_detail_news  pkg']/i[@class='fa fa-clock-o']
-    - //div[@class='time_detail_news  pkg']/i[@class='fa fa-clock-o']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@id='cotent_detail']
-    - //div[@id='cotent_detail']
-    text_xpath:
-    - .//p
-    - .//p
-    image_box_xpath:
-    - .//div/figure
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: http://thanhnienviet.vn
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Thethao247:
-    id_type: href
-    browser_profile: ''
-    web_url: https://thethao247.vn/
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //p[@class='typo_news_detail fbold']
-    - //p[@class='typo_news_detail fbold']
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://thethao247.vn/o-to-c200/
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //p[@class='ptimezone fregular']
-    - //p[@class='ptimezone fregular']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@id='main-detail']
-    - //div[@id='main-detail']
-    text_xpath:
-    - .//p
-    - .//p
-    image_box_xpath:
-    - //figure
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://thethao247.vn
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: false
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Tiền Phong:
-    id_type: href
-    browser_profile: ''
-    web_url: https://www.tienphong.vn/
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: true
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths:
-    - //*[@class="region grey-region slider-region"]
-    - //*[@class="article-pin-social"]
-    - //*[@class="article-relate-b"]
-    - //*[@class="article-orginal-social"]
-    - //*[@class="banner box"]
-    - //div[@class="related-inline-story clearfix cms-relate"]
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //*[@class="article-sapo cms-desc"]
-    - //*[@class="article-sapo cms-desc"]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://www.tienphong.vn/thi-truong-xe/
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //*[@class="byline-dateline"]
-    - //*[@class="byline-dateline"]
-    topic_type: href
-    maximum_url: 30
-    get_detail_content: true
-    content_xpath:
-    - //*[@class="article-col-b"]
-    - //*[@class="article-col-b"]
-    text_xpath:
-    - .//div[@id="article-body"]/*[not(.//img)]
-    image_box_xpath:
-    - //div[@id="article-body"]/*[.//img]
-    - ./figure
-    image_title_xpath:
-    - ./figcaption
-    - .//*[@class="fig"]
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: https://images.tienphong.vn/web/App_Themes/img/logo-web.png
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://www.tienphong.vn/xe/
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- Tinxe:
-    id_type: href
-    browser_profile: ''
-    web_url: https://tinxe.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='blog-detail']/div[@class='description']
-    - //div[@class='blog-detail']/div[@class='description']
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://tinxe.vn
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //p[@class='date-time']/span
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='content-detail group-image-lightbox']
-    - //div[@class='content-detail group-image-lightbox']
-    text_xpath:
-    - //div[@class='content-detail group-image-lightbox']/p
-    - //div[@class='content-detail group-image-lightbox']/p
+    - //div[@class='content-body']/p
+    - //div[@class='content-body']/p
     image_box_xpath: []
     image_title_xpath: []
     video_box_xpath: []
@@ -2000,17 +1817,17 @@ crawling_list:
     avatar_url: ''
     avatar_xpath: ''
     crawl_type: newspaper
-    url_pattern_re: https://tinxe.vn
+    url_pattern_re: https://xe.baogiaothong.vn
     minimum_topic_length: 2
     tags: []
     only_quality_post: false
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-- ToQuoc:
+- AutoZone:
     id_type: href
     browser_profile: ''
-    web_url: http://toquoc.vn
+    web_url: http://autozone.vn
     timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
     remove_content_html: true
@@ -2030,98 +1847,31 @@ crawling_list:
     skip_checking_topic_length: false
     display_browser: false
     sapo_xpath:
-    - //h2[@class="sapo"]
-    - //h2[@class="sapo"]
+    - //article/div[3]/p[1]/strong
+    - //article/div[3]/p[1]/strong
     get_publish_date_as_crawl_date: false
     browser_fast_load: true
     skip_repeat_topic: true
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
+    last_run: 21/03/2021 09:55
     contain: ''
-    crawl_url: http://toquoc.vn/kinh-te/xe-co.htm
+    crawl_url: http://autozone.vn
     output_html: false
     get_topic_from_link: true
     date_xpath:
-    - //span[@class="publishdate"]
-    - //span[@class="publishdate"]
+    - //*[@id="content"]/div/div[1]/div/div/span/time
     topic_type: href
     maximum_url: 50
     get_detail_content: true
     content_xpath:
-    - //div[@data-role="content"]
-    - //div[@data-role="content"]
+    - //article/div[@class='entry-content clearfix single-post-content']
+    - //article/div[@class='entry-content clearfix single-post-content']
     text_xpath:
-    - ./p
-    image_box_xpath:
-    - .//div[@class="VCSortableInPreviewMode active"]
-    image_title_xpath:
-    - ./div[@class="PhotoCMS_Caption"]
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: http://toquoc.vn/
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- TrangCongNghe:
-    id_type: href
-    browser_profile: ''
-    web_url: https://vn.trangcongnghe.com
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class='entry-content']/p[1]
-    - //div[@class='entry-content']/p[1]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://vn.trangcongnghe.com/oto-xe-may/
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //div[@class='entry-header']/ul/li[3]
-    - //div[@class='entry-header']/ul/li[3]
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='entry-content']
-    - //div[@class='entry-content']
-    text_xpath:
-    - ./p
-    image_box_xpath:
-    - .//div[@align='center']
+    - //article/div[@class='entry-content clearfix single-post-content']/p
+    - //article/div[@class='entry-content clearfix single-post-content']/p
+    image_box_xpath: []
     image_title_xpath: []
     video_box_xpath: []
     video_title_xpath: []
@@ -2131,83 +1881,17 @@ crawling_list:
     avatar_url: ''
     avatar_xpath: ''
     crawl_type: newspaper
-    url_pattern_re: https://vn.trangcongnghe.com
-    minimum_topic_length: 2
-    tags: []
-    only_quality_post: true
-    browser_timeout: 60
-    prevent_auto_redirect: false
-    remove_me: false
-- TuoiTreThuDo:
-    id_type: href
-    browser_profile: ''
-    web_url: https://tuoitrethudo.com.vn
-    timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: false
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths: []
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //h2[@class='bx-desc f1 clearfix']
-    - //h2[@class='bx-desc f1 clearfix']
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://tuoitrethudo.com.vn/xe
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //span[@class='post-date']/span[@class='format_time']
-    - //span[@class='post-date']/span[@class='format_time']
-    topic_type: href
-    maximum_url: 50
-    get_detail_content: true
-    content_xpath:
-    - //div[@class='__MB_CONTENT clearfix']
-    - //div[@class='__MB_CONTENT clearfix']
-    text_xpath:
-    - .//p
-    - .//p
-    image_box_xpath:
-    - .//table
-    image_title_xpath: []
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: https://tuoitrethudo.com.vn
+    url_pattern_re: http://autozone.vn
     minimum_topic_length: 2
     tags: []
     only_quality_post: false
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-- VietNamFinance:
+- AutoVina:
     id_type: href
     browser_profile: ''
-    web_url: https://vietnamfinance.vn
+    web_url: https://autovina.com
     timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
     remove_content_html: true
@@ -2216,40 +1900,40 @@ crawling_list:
     minimum_duration_between_crawls: 30
     language: vietnamese
     feature_image_xpath:
-    - //div[@class='news-header']/div[@class='news-avatar']/img/@src
+    - .//img/@src
+    - .//img/@src
     extract_xpath:
     - ./text()
     - ./@title
     topics_xpath:
-    - //a[text()]
+    - //a[2536text()]
     - //a[@title]
     skip_checking_topic_length: false
     display_browser: false
     sapo_xpath:
-    - //h2[@class="news-sapo"]
-    - //h2[@class="news-sapo"]
+    - //div[@class='row-fluid']/strong
+    - //div[@class='row-fluid']/strong
     get_publish_date_as_crawl_date: false
     browser_fast_load: true
     skip_repeat_topic: true
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
+    last_run: 21/03/2021 09:55
     contain: ''
-    crawl_url: https://vietnamfinance.vn/xe.htm
+    crawl_url: https://autovina.com/news/tin-tuc
     output_html: false
     get_topic_from_link: true
     date_xpath:
-    - //div[@class='news-author-info social-icons']
-    - //div[@class='news-author-info social-icons']
+    - //div[@class='span12 seotitle']
+    - //div[@class='span12 seotitle']
     topic_type: href
     maximum_url: 50
     get_detail_content: true
     content_xpath:
-    - //div[@class="news-body-content"]
-    - //div[@class="news-body-content"]
+    - //div[@class='span8 infor col-left']/div[@class='text']
+    - //div[@class='span8 infor col-left']/div[@class='text']
     text_xpath:
-    - ./p
     - ./p
     image_box_xpath: []
     image_title_xpath: []
@@ -2261,85 +1945,17 @@ crawling_list:
     avatar_url: ''
     avatar_xpath: ''
     crawl_type: newspaper
-    url_pattern_re: https://vietnamfinance.vn
+    url_pattern_re: https://autovina.com/article
     minimum_topic_length: 2
     tags: []
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-- Vietnamnet:
-    date_place: detail_page
-    remove_content_html: true
-    prevent_auto_redirect: false
-    display_browser: false
-    get_detail_content: true
-    minimum_topic_length: 2
-    remove_content_html_xpaths:
-    - .//node()[@class='bold ArticleLead' or @class='article-relate']
-    - //div[@class='inner-article']
-    avatar_url: http://ainewsobj.6112cf5e.viettel-cdn.vn/bangtin/028b5766-50bc-4b5b-8c0b-e99ff05821c5_small.jpg
-    minimum_duration_between_crawls: 30
-    avatar_type: url
-    image_box_xpath:
-    - .//table[contains(@class, "image")]
-    sapo_xpath:
-    - //div[@class='bold ArticleLead']
-    - //div[@class='bold ArticleLead']
-    browser_profile: ''
-    maximum_url: 80
-    language: vietnamese
-    content_xpath:
-    - //div[@class='ArticleContent']
-    - //div[@class='ArticleContent']
-    browser_fast_load: true
-    use_browser: true
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    text_xpath:
-    - .//p[text()]
-    id_type: href
-    contain: ''
-    get_publish_date_as_crawl_date: false
-    ignore_topic_not_have_publish_date: true
-    video_box_xpath: []
-    crawl_type: newspaper
-    crawl_url: https://vietnamnet.vn/vn/oto-xe-may
-    audio_box_xpath: []
-    last_run: 21/03/2021 09:36
-    timezone: Asia/Ho_Chi_Minh
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    image_title_xpath:
-    - ./tbody/tr[2]/td
-    use_index_number: false
-    date_xpath:
-    - //span[@class="ArticleDate"]
-    - //span[@class="ArticleDate"]
-    skip_repeat_topic: true
-    web_url: https://vietnamnet.vn
-    browser_timeout: 60
-    video_title_xpath: []
-    url_pattern_re: https://vietnamnet.vn/vn/oto-xe-may
-    skip_checking_topic_length: false
-    output_html: false
-    audio_title_xpath: []
-    extract_xpath:
-    - ./text()
-    - ./@title
-    get_topic_from_link: true
-    avatar_xpath: ''
-    topic_type: href
-    remove_date_tag_html: true
-    only_quality_post: true
-    tags: []
-    remove_me: false
-- VnExpress:
+- Autopro:
     id_type: href
     browser_profile: ''
-    web_url: https://vnexpress.net
+    web_url: https://autopro.com.vn
     timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
     remove_content_html: true
@@ -2359,17 +1975,343 @@ crawling_list:
     skip_checking_topic_length: false
     display_browser: false
     sapo_xpath:
-    - //p[@class="description"]
-    - //p[@class="description"]
+    - //h2[@class='sapo']
+    - //h2[@class='sapo']
     get_publish_date_as_crawl_date: false
     browser_fast_load: true
     skip_repeat_topic: true
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
+    last_run: 21/03/2021 09:55
     contain: ''
-    crawl_url: https://vnexpress.net/oto-xe-may
+    crawl_url: https://autopro.com.vn
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //p[@class='time-detail']/@title
+    - //p[@class='time-detail']/@title
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='contentbody']/div[@class='content-news-detail']
+    - //div[@class='contentbody']/div[@class='content-news-detail']
+    text_xpath:
+    - //div[@class='contentbody']/div[@class='content-news-detail']/p
+    - //div[@class='contentbody']/div[@class='content-news-detail']/p
+    image_box_xpath: []
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://autopro.com.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- AutoExpress:
+    id_type: href
+    browser_profile: ''
+    web_url: https://autopress.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class='article-description']
+    - //div[@class='article-description']
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://autopress.vn
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //span[@class='article-date']
+    - //span[@class='article-date']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@id='BoxNewContentInfo']
+    - //div[@id='BoxNewContentInfo']
+    text_xpath:
+    - .//p
+    - .//p
+    image_box_xpath:
+    - //div[@class='post-image']
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://autopress.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Autodaily:
+    id_type: href
+    browser_profile: ''
+    web_url: https://autodaily.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class="article-detail-hd"]/p
+    - //div[@class="article-detail-hd"]/p
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://autodaily.vn
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //p[@class='article-date-time a-right']
+    - //p[@class='article-date-time a-right']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class="article-detail"]
+    - //div[@class="article-detail"]
+    text_xpath:
+    - //div[@class="article-detail"]/p
+    - //div[@class="article-detail"]/p
+    image_box_xpath: []
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://autodaily.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- 24h:
+    id_type: href
+    browser_profile: ''
+    web_url: https://www.24h.com.vn/
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //h2[@id='article_sapo']
+    - //h2[@id='article_sapo']
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://www.24h.com.vn/tin-tuc-o-to-c332.html
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //div[@class='updTm updTmD mrT5']
+    - //div[@class='updTm updTmD mrT5']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //article[@id='article_body']
+    - //article[@id='article_body']
+    text_xpath:
+    - ./p
+    - ./p
+    image_box_xpath:
+    - .//p[@align='center']
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://www.24h.com.vn/o-to
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: true
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Otofun:
+    id_type: href
+    browser_profile: ''
+    web_url: https://news.otofun.net
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@class='article-content __MASTERCMS_CONTENT __MB_CONTENT_FOR_PRINTER']/strong
+    - //div[@class='article-content __MASTERCMS_CONTENT __MB_CONTENT_FOR_PRINTER']/strong
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://news.otofun.net
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //div[@class='the-time']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='__MB_MASTERCMS_EL']
+    - //div[@class='__MB_MASTERCMS_EL']
+    text_xpath:
+    - //div[@class='__MB_MASTERCMS_EL']/p
+    - //div[@class='__MB_MASTERCMS_EL']/p
+    image_box_xpath: []
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://news.otofun.net
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- XeVaThiTruong:
+    id_type: href
+    browser_profile: ''
+    web_url: https://xevathitruong.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //blockquote
+    - //blockquote
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://xevathitruong.vn/
     output_html: false
     get_topic_from_link: true
     date_xpath:
@@ -2379,15 +2321,14 @@ crawling_list:
     maximum_url: 50
     get_detail_content: true
     content_xpath:
-    - //*[@class="fck_detail "]
-    - //*[@class="fck_detail "]
+    - //div[@class="main-content wow fadeIn"]
+    - //div[@class="main-content wow fadeIn"]
     text_xpath:
+    - ./p/span
+    - ./p/span/span
     - ./p
-    - ./div/p
-    image_box_xpath:
-    - .//figure
-    image_title_xpath:
-    - ./figcaption
+    image_box_xpath: []
+    image_title_xpath: []
     video_box_xpath: []
     video_title_xpath: []
     audio_box_xpath: []
@@ -2396,148 +2337,77 @@ crawling_list:
     avatar_url: ''
     avatar_xpath: ''
     crawl_type: newspaper
-    url_pattern_re: https://vnexpress.net
+    url_pattern_re: https://xevathitruong.vn/
     minimum_topic_length: 2
     tags: []
     only_quality_post: true
     browser_timeout: 60
     prevent_auto_redirect: false
     remove_me: false
-- VnReview:
+- Otosaigon:
     id_type: href
     browser_profile: ''
-    web_url: https://vnreview.vn
+    web_url: https://www.otosaigon.com
     timezone: Asia/Ho_Chi_Minh
-    remove_date_tag_html: true
-    remove_content_html: true
-    use_index_number: false
-    remove_content_html_xpaths:
-    - //div[@class="journal-content-article"]/ins
-    - //*[@class="relationlinkParent"]
-    minimum_duration_between_crawls: 30
-    language: vietnamese
-    feature_image_xpath:
-    - .//img/@src
-    - .//img/@src
-    extract_xpath:
-    - ./text()
-    - ./@title
-    topics_xpath:
-    - //a[text()]
-    - //a[@title]
-    skip_checking_topic_length: false
-    display_browser: false
-    sapo_xpath:
-    - //div[@class="journal-content-article"]/p[1][./strong]
-    - //div[@class="journal-content-article"]/p[1][./strong]
-    get_publish_date_as_crawl_date: false
-    browser_fast_load: true
-    skip_repeat_topic: true
-    use_browser: false
-    date_place: detail_page
-    ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
-    contain: ''
-    crawl_url: https://vnreview.vn/auto-bike
-    output_html: false
-    get_topic_from_link: true
-    date_xpath:
-    - //span[@class="review-displaydate"]
-    - //span[@class="review-displaydate"]
-    topic_type: href
-    maximum_url: 10
-    get_detail_content: true
-    content_xpath:
-    - //div[@class="journal-content-article"]
-    - //div[@class="journal-content-article"]
-    text_xpath:
-    - //div[@class="journal-content-article"]/p[not(contains(@style, "center"))][not(position()=1)]
-    image_box_xpath:
-    - //div[@class="journal-content-article"]/p[.//img]
-    image_title_xpath:
-    - ./following-sibling::*[contains(@style,"center")][1]
-    video_box_xpath: []
-    video_title_xpath: []
-    audio_box_xpath: []
-    audio_title_xpath: []
-    avatar_type: url
-    avatar_url: ''
-    avatar_xpath: ''
-    crawl_type: newspaper
-    url_pattern_re: (https://vnreview.vn/xe|https://vnreview.vn/auto-bike/xe)
-    minimum_topic_length: 2
-    tags: []
-    remove_me: false
-- VOV:
-    crawl_url: https://vov.vn/oto-xe-may
-    timezone: Asia/Ho_Chi_Minh
-    browser_fast_load: true
-    contain: ''
-    date_place: detail_page
-    image_title_xpath:
-    - .//tr[2]/td//node()[text()]
-    - .//div[text()]
-    get_topic_from_link: true
-    video_title_text_xpath: ''
-    topic_type: href
-    audio_box_xpath: []
-    language: vietnamese
-    skip_checking_topic_length: false
     remove_date_tag_html: false
-    remove_content_html_xpaths: []
-    skip_repeat_topic: true
-    extract_xpath:
-    - ./text()
-    - ./@title
-    image_box_xpath:
-    - .//table[@class='contentimg']
-    - .//div[@class='item contentimg']
-    date_xpath:
-    - //div[@class='article__time']/a
-    - //div[@class='article__time']/a
     remove_content_html: true
-    minimum_topic_length: 2
-    avatar_url: http://ainewsobj.6112cf5e.viettel-cdn.vn/bangtin/a1e35547-1fd4-4331-aea0-fd1bc355635b_small.jpg
-    image_title_text_xpath: ''
-    last_run: 21/03/2021 09:36
-    audio_title_text: ''
-    crawl_type: newspaper
-    display_browser: false
-    maximum_url: 10
-    output_html: false
-    text_xpath:
-    - .//p[text()]
-    get_detail_content: true
-    use_browser: false
-    get_publish_date_as_crawl_date: false
-    avatar_type: url
-    image_xpath: ''
     use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
     feature_image_xpath:
     - .//img/@src
     - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
     topics_xpath:
     - //a[text()]
     - //a[@title]
-    content_xpath:
-    - //div[@class='article__body']/div[@class='text-long']
-    - //div[@class='article__body']/div[@class='text-long']
-    video_box_xpath: []
-    id_type: href
-    video_title_xpath: []
-    avatar_xpath: ''
-    ignore_topic_not_have_publish_date: true
-    audio_title_xpath: []
-    url_pattern_re: https://vov.vn/o-to-xe-may
-    minimum_duration_between_crawls: 30
+    skip_checking_topic_length: false
+    display_browser: false
     sapo_xpath: []
-    browser_profile: ''
-    web_url: https://vov.vn
+    get_publish_date_as_crawl_date: true
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: false
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://www.otosaigon.com
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //time
+    - //time
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //article
+    - //article
+    text_xpath:
+    - ./*
+    image_box_xpath:
+    - .//img
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://www.otosaigon.com
+    minimum_topic_length: 2
+    tags: []
     remove_me: false
-- VTC:
+- XeTv:
     id_type: href
     browser_profile: ''
-    web_url: https://vtc.vn
+    web_url: https://xetv.vn
     timezone: Asia/Ho_Chi_Minh
     remove_date_tag_html: false
     remove_content_html: true
@@ -2546,8 +2416,8 @@ crawling_list:
     minimum_duration_between_crawls: 30
     language: vietnamese
     feature_image_xpath:
-    - .//img/@data-src
-    - .//img/@data-src
+    - .//img/@src
+    - .//img/@src
     extract_xpath:
     - ./text()
     - ./@title
@@ -2557,35 +2427,34 @@ crawling_list:
     skip_checking_topic_length: false
     display_browser: false
     sapo_xpath:
-    - //h4[@class='font16 bold mb15']
-    - //h4[@class='font16 bold mb15']
+    - //div[@id='penci-post-entry-inner']/p[1]
+    - //div[@id='penci-post-entry-inner']/p[1]
     get_publish_date_as_crawl_date: false
     browser_fast_load: true
     skip_repeat_topic: true
     use_browser: false
     date_place: detail_page
     ignore_topic_not_have_publish_date: true
-    last_run: 21/03/2021 09:36
+    last_run: 21/03/2021 09:55
     contain: ''
-    crawl_url: https://vtc.vn/oto-xe-may-37.html
+    crawl_url: https://xetv.vn/news
     output_html: false
     get_topic_from_link: true
     date_xpath:
-    - //div[@class='mb15 gray-91 font12']/span[@class='time-update mr10']
-    - //div[@class='mb15 gray-91 font12']/span[@class='time-update mr10']
+    - //div[@class='post-box-meta-single']/span/time[@class='entry-date published']/@datetime
     topic_type: href
     maximum_url: 50
     get_detail_content: true
     content_xpath:
-    - //div[@class='edittor-content box-cont clearfix']
-    - //div[@class='edittor-content box-cont clearfix']
+    - //div[@id='penci-post-entry-inner']
+    - //div[@id='penci-post-entry-inner']
     text_xpath:
     - .//p
     - .//p
     image_box_xpath:
-    - //figure
+    - //div[@class='post-image']
     image_title_xpath:
-    - ./figcaption
+    - ./a/img/@title
     video_box_xpath: []
     video_title_xpath: []
     audio_box_xpath: []
@@ -2594,12 +2463,143 @@ crawling_list:
     avatar_url: ''
     avatar_xpath: ''
     crawl_type: newspaper
-    url_pattern_re: https://vtc.vn
+    url_pattern_re: https://xetv.vn/news
     minimum_topic_length: 2
     tags: []
     only_quality_post: false
     browser_timeout: 60
     prevent_auto_redirect: false
+    remove_me: false
+- Xehay:
+    id_type: href
+    browser_profile: ''
+    web_url: https://xehay.vn
+    timezone: Asia/Ho_Chi_Minh
+    remove_date_tag_html: false
+    remove_content_html: true
+    use_index_number: false
+    remove_content_html_xpaths: []
+    minimum_duration_between_crawls: 30
+    language: vietnamese
+    feature_image_xpath:
+    - .//img/@src
+    - .//img/@src
+    extract_xpath:
+    - ./text()
+    - ./@title
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    skip_checking_topic_length: false
+    display_browser: false
+    sapo_xpath:
+    - //div[@itemprop="articleBody"]/p/strong
+    - //div[@itemprop="articleBody"]/p/strong
+    get_publish_date_as_crawl_date: false
+    browser_fast_load: true
+    skip_repeat_topic: true
+    use_browser: false
+    date_place: detail_page
+    ignore_topic_not_have_publish_date: true
+    last_run: 21/03/2021 09:55
+    contain: ''
+    crawl_url: https://xehay.vn
+    output_html: false
+    get_topic_from_link: true
+    date_xpath:
+    - //div[@class='title']/div[@class='datetime']
+    - //div[@class='title']/div[@class='datetime']
+    topic_type: href
+    maximum_url: 50
+    get_detail_content: true
+    content_xpath:
+    - //div[@class='news-content']/div[@class='divfirst']
+    - //div[@class='news-content']/div[@class='divfirst']
+    text_xpath:
+    - //div[@class='news-content']/div[@class='divfirst']/p
+    - //div[@class='news-content']/div[@class='divfirst']/p
+    image_box_xpath: []
+    image_title_xpath: []
+    video_box_xpath: []
+    video_title_xpath: []
+    audio_box_xpath: []
+    audio_title_xpath: []
+    avatar_type: url
+    avatar_url: ''
+    avatar_xpath: ''
+    crawl_type: newspaper
+    url_pattern_re: https://xehay.vn
+    minimum_topic_length: 2
+    tags: []
+    only_quality_post: false
+    browser_timeout: 60
+    prevent_auto_redirect: false
+    remove_me: false
+- Zing:
+    content_xpath:
+    - //node()[@class='the-article-body']
+    - //node()[@class='the-article-body']
+    browser_timeout: 60
+    image_title_xpath:
+    - //node()[@class='pCaption caption']
+    remove_date_tag_html: false
+    extract_xpath:
+    - ./text()
+    - ./@title
+    display_browser: false
+    contain: ''
+    timezone: Asia/Ho_Chi_Minh
+    use_browser: true
+    browser_profile: ''
+    use_index_number: false
+    url_pattern_re: https://news.zing.vn
+    output_html: false
+    audio_box_xpath: []
+    minimum_duration_between_crawls: 30
+    id_type: href
+    get_topic_from_link: true
+    video_box_xpath: []
+    avatar_url: http://ainewsobj.6112cf5e.viettel-cdn.vn/bangtin/d86dfeef-2567-42b3-a638-72737bc3f4da_small.jpg
+    sapo_xpath:
+    - //node()[@class='the-article-summary']/text()
+    - //node()[@class='the-article-summary']/text()
+    crawl_url: https://zingnews.vn/oto-xe-may.html
+    feature_image_xpath:
+    - //node()[@class='the-article-body']//img/@data-src
+    - //node()[@class='the-article-body']//img/@data-src
+    get_detail_content: true
+    minimum_topic_length: 2
+    skip_checking_topic_length: false
+    remove_content_html: true
+    audio_title_xpath: []
+    date_place: detail_page
+    crawl_type: newspaper
+    avatar_type: url
+    date_xpath:
+    - //node()[@class='the-article-publish']
+    - //node()[@class='the-article-publish']
+    maximum_url: 30
+    prevent_auto_redirect: false
+    remove_content_html_xpaths:
+    - //node()[@class='notebox ncenter']
+    - //node()[@class='interview']
+    get_publish_date_as_crawl_date: false
+    video_title_xpath: []
+    topic_type: href
+    last_run: 21/03/2021 09:55
+    avatar_xpath: ''
+    browser_fast_load: true
+    language: vietnamese
+    text_xpath:
+    - //node()[@class='the-article-body']/p
+    ignore_topic_not_have_publish_date: true
+    topics_xpath:
+    - //a[text()]
+    - //a[@title]
+    web_url: https://news.zing.vn
+    image_box_xpath:
+    - //node()[@class='picture']
+    skip_repeat_topic: true
     remove_me: false
 running_path: ~/docbao_crawler/
 number_of_trending_keywords: 25
