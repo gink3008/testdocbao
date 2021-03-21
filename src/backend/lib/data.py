@@ -740,6 +740,7 @@ class ArticleManager:
 
                             try:
                                 sapo_xpath = webconfig.get_sapo_xpath()[xpath_index]
+                                print(f"{bcolors.OKGREEN} {sapo_xpath} {bcolors.ENDC}")
                                 sapo = detail_page_html_tree.xpath(sapo_xpath)[0]
                                 if not isinstance(sapo, str): # sapo_xpath return an element
                                     sapo = remove_html(get_tagstring_from_etree(sapo)).strip() # clean html
