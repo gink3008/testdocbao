@@ -1365,7 +1365,6 @@ class ArticleManager:
 
         a=True
         while a==True:
-        #try:
             try:
                 count_visit+=1
                 html = read_url_source(crawl_url, webconfig, browser)
@@ -1482,14 +1481,13 @@ class ArticleManager:
                 else:
                     print(f"{bcolors.WARNING}Crawler pid %s: Can't open: %s {bcolors.ENDC}" % (my_pid, webname))
                 a=False
+
+                for item in blacklist:
+                    print(f"{bcolors.WARNING} source code add blacklist {bcolors.ENDC}")
+                    self.add_url_to_blacklist(item)
             except:
-                print_exceptiont()
-            
-
-
-            for item in blacklist:
-                print(f"{bcolors.WARNING} source code add blacklist {bcolors.ENDC}")
-                self.add_url_to_blacklist(item)
+                print_exception()
+        
 
         #except:
         #    print("Crawler pid %s: Can't open: %s" % (my_pid, webname))
