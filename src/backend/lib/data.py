@@ -732,7 +732,7 @@ class ArticleManager:
                     feature_image_url = ''
                     avatar_url = ''
                     feature_image_fullurl = ''
-
+                    feature_image = []
                     try:
                         if get_detail_content:
                             content_xpath = webconfig.get_content_xpath()[xpath_index]
@@ -1012,7 +1012,7 @@ class ArticleManager:
                         print("Ignore. Can't extract detail content. This might not be an article")
 
                         return (False, has_visit)
-
+                    
                     return ((topic, newsdate, sapo, content, feature_image, avatar_url), has_visit)
                 else:
                     print("Ignore. This article is outdated")
@@ -1367,7 +1367,12 @@ class ArticleManager:
         while a==True:
         #try:
             count_visit+=1
-            html = read_url_source(crawl_url, webconfig, browser)
+            try:
+                html = read_url_source(crawl_url, webconfig, browser)
+            except:
+                html = None
+                print(f"{bcolors.FAIL} WRONG at load html {bcolors.ENDC}")
+                print_exception()
 
             if html is not None:
                 print("Crawler pid %s: Getting data, please wait..." % my_pid)
@@ -1485,6 +1490,7 @@ class ArticleManager:
                             self.refresh_url_in_blacklist(fullurl)
             else:
                 print(f"{bcolors.WARNING}Crawler pid %s: Can't open: %s {bcolors.ENDC}" % (my_pid, webname))
+            
             a=False
 
 
