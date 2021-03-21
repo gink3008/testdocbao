@@ -196,7 +196,12 @@ class Docbao_Crawler():
                     crawl_type = webconfig.get_crawl_type()
                     if crawl_type == "newspaper":
                         print("Crawler %s is crawling newspaper %s" % (process_name, webconfig.get_webname()))
-                        data_manager.add_articles_from_newspaper(process_name, webconfig, browser)
+                        try:
+                            data_manager.add_articles_from_newspaper(process_name, webconfig, browser)
+                        except Exception as error:
+                            dirpath = os.getcwd()
+                            with open(dirpath + "/fillog.txt", "a+") as f:
+                                f.write(str(error))
                     elif 'facebook' in crawl_type: # facebook user, facebook fanpage/groups
                         print("Crawler %s is crawling FB %s" % (process_name, webconfig.get_webname()))
                         data_manager.add_articles_from_facebook(process_name, webconfig, browser)
