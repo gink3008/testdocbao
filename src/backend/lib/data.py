@@ -1437,7 +1437,7 @@ class ArticleManager:
                                                     print(f"{bcolors.OKGREEN} delete function add_url_to_blacklist() {bcolors.ENDC}")
                                                     # self.add_url_to_blacklist(fullurl)
                                                     count_lay +=1
-                                                    print(f"{bcolors.FAIL} number artical: {count_lay} {bcolors.ENDC}")
+                                                    print(f"{bcolors.HEADER} number artical: {count_lay} {bcolors.ENDC}")
                                                     print("Crawler pid %s: Crawled articles: %s" % (my_pid, str(count_lay)))
                                                 else:
                                                     print(f"{bcolors.FAIL}Ignore. Not a quality post {bcolors.ENDC}")
@@ -1445,6 +1445,8 @@ class ArticleManager:
                                                 self.add_article(new_article)
                                                 # self.add_url_to_blacklist(fullurl)
                                                 count_lay +=1
+                                                print(f"{bcolors.HEADER} number artical: {count_lay} {bcolors.ENDC}")
+
                                                 print("Crawler pid %s: Crawled articles: %s" % (my_pid, str(count_lay)))
 
                                             if has_visit_page:
