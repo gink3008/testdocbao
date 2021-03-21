@@ -747,8 +747,9 @@ class ArticleManager:
                                 else: # sapo_xpath return text
                                     sapo = str(sapo).strip()
                             except:
+                                sapo = None
                                 print_exception()
-                            print("sapo: " + sapo)
+                            print(f"{bcolors.OKGREEN}sapo: {sapo} {bcolors.ENDC}")
 
 
                             # get detail contents: text, image, video, audio...
